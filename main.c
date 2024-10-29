@@ -27,7 +27,7 @@ int tc_ingress(struct __sk_buff *ctx)
     if ((void *)(l3 + 1) > data_end)
         return TC_ACT_OK;
 
-    bpf_printk("Got IP packet: tot_len: %d, ttl: %d \npacket data:\n %p \n", bpf_ntohs(l3->tot_len), l3->ttl, (void*)data);
+    bpf_printk("Got IP packet: tot_len: %d, ttl: %d \npacket data: %p \n", bpf_ntohs(l3->tot_len), l3->ttl, (void*)data);
     return TC_ACT_OK;
 }
 
