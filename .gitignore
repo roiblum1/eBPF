@@ -10,3 +10,4 @@ __pycache__/*
 .env
 .venv/
 vmlinux.h
+main.skel.json
