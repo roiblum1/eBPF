@@ -2,8 +2,8 @@
 from bcc import BPF
 import time
 device = "lo"
-b = BPF(src_file="filter.c")
-fn = b.load_func("udpfilter", BPF.XDP)
+b = BPF(src_file="main.c")
+fn = b.load_func("tc_ingress", BPF.XDP)
 b.attach_xdp(device, fn, 0)
 try:
   b.trace_print()
