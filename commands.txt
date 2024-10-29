@@ -1,0 +1,2 @@
+./ecc main.c
+sudo ./ecli run package.json
