@@ -15,7 +15,6 @@
 static bool is_tcp(struct ethhdr *eth, void *data_end, char* protocol)
 {
     struct iphdr *ip = (struct iphdr *)(eth + 1);
-    // Check if the protocol is TCP
     if (strcmp(protocol, "TCP") == 0) 
     {
         if (ip->protocol != IPPROTO_TCP)
@@ -54,8 +53,7 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
     
-    bpf_printk("Got IP packet: tot_len: %d, ttl: %d, protocol: %s\npacket data: %p\n", bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data);
-    bpf_printk("Packet src_ip: %pI4, dest_ip: %pI4", l3->saddr, l3->daddr);
+    bpf_printk("Packet came : src_ip: %pI4, dest_ip: %pI4, tot_len: %d, ttl: %d, protocol: %s, data: %p\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data);
     return TC_ACT_OK;
 }
 
