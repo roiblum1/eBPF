@@ -4,7 +4,6 @@
 #include <bpf/bpf_tracing.h>
 #include <string.h>
 
-
 #define TC_ACT_OK 0
 #define ETH_P_IP 0x0800 /* Internet Protocol packet */
 #define PROTOCOL "TCP"
@@ -13,15 +12,28 @@
 
 struct packet_information {
     __u32 src_ip;
-    __u32 dest_ip;
+    __u32 dst_ip;
     __u16 tot_len;
     __u8 ttl;
-    char protocol[4]; //In ASCII its 3 letters and each one is byte, + null terminator
-    char data[1024]; //1024 bytes of data. 
+    char protocol[4];
+    char data[256];
 };
 
+struct packet_map_key {
+    __u32 src_ip;
+    __u32 dst_ip;
+};
+
+struct {
+    __uint(type, BPF_MAP_TYPE_HASH);
+    __type(key, struct packet_map_key);
+    __type(value, struct packet_information);
+    __uint(max_entries, 1024);
+    __uint(pinning, LIBBPF_PIN_BY_NAME);
+} packet_map SEC(".maps");
+
 // Helper function to check if the packet is TCP
-static bool is_tcp(struct ethhdr *eth, void *data_end, char* protocol)
+static bool is_protocol(struct ethhdr *eth, void *data_end, char* protocol)
 {
     struct iphdr *ip = (struct iphdr *)(eth + 1);
     if (strcmp(protocol, "TCP") == 0) 
@@ -41,6 +53,7 @@ SEC("tc")
 
 int tc_ingress(struct __sk_buff *ctx)
 {
+    bpf_printk("tc_ingress function called\n");
     void *data_end = (void *)(__u64)ctx->data_end;
     void *data = (void *)(__u64)ctx->data;
     struct ethhdr *l2;
@@ -59,19 +72,44 @@ int tc_ingress(struct __sk_buff *ctx)
     if ((void *)(l3 + 1) > data_end)
         return TC_ACT_OK;
 
-    if (!is_tcp(l2, data_end, PROTOCOL)) {
+
+    if (!is_protocol(l2, data_end, PROTOCOL)) {
         return TC_ACT_OK;
     }
     
     struct packet_information packet_data;
     packet_data.src_ip = l3->saddr;
-    packet_data.dest_ip = l3->daddr;
+    packet_data.dst_ip = l3->daddr;
     packet_data.tot_len = bpf_ntohs(l3->tot_len);
     packet_data.ttl = l3->ttl;
     strcpy(packet_data.protocol, PROTOCOL);
-    memcpy(packet_data.data, data, 1024);
+    
+    //to ensure theat the data size is 256 bytes
+    int data_size = data_end - data;
+    if (data_size > 256)
+        data_size = 256;
 
-    bpf_printk("src_ip:%pI4,dest_ip:%pI4,tot_len:%d,ttl:%d,protocol:%s,data:%p\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data); 
+    for (int i = 0; i < data_size; i++) {
+        //insure that i am still in the packet size, because if its less than 256 
+        //I have got an error without it. 
+        if ((void *)(data + i + 1) > data_end)
+            break;
+        packet_data.data[i] = ((char *)data)[i];
+    }
+
+    struct packet_map_key key_map; 
+    key_map.src_ip = l3->saddr;
+    key_map.dst_ip = l3->daddr;
+    
+    //I figure out that     
+    unsigned char *src_ip_bytes = (unsigned char *)&key_map.src_ip;
+    unsigned char *dst_ip_bytes = (unsigned char *)&key_map.dst_ip;
+    bpf_map_update_elem(&packet_map, &key_map, &packet_data, BPF_ANY);
+    bpf_printk("src_ip:%d.%d.%d.%d,dest_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s,data:%p\n",
+    src_ip_bytes[0], src_ip_bytes[1], src_ip_bytes[2], src_ip_bytes[3],
+    dst_ip_bytes[0], dst_ip_bytes[1], dst_ip_bytes[2], dst_ip_bytes[3], 
+    packet_data.tot_len, packet_data.ttl, packet_data.protocol, packet_data.data); 
+   
     return TC_ACT_OK;
 }
 
