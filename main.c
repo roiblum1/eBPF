@@ -11,6 +11,15 @@
 /// @tchook {"ifindex":1, "attach_point":"BPF_TC_INGRESS"}
 /// @tcopts {"handle":1, "priority":1}
 
+struct packet_data {
+    __u32 src_ip;
+    __u32 dest_ip;
+    __u16 tot_len;
+    __u8 ttl;
+    char protocol[4]; //In ASCII its 3 letters and each one is byte, + null terminator
+    char data[1024]; //1024 bytes of data. 
+};
+
 // Helper function to check if the packet is TCP
 static bool is_tcp(struct ethhdr *eth, void *data_end, char* protocol)
 {
@@ -53,7 +62,15 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
     
-    bpf_printk("Packet came : src_ip: %pI4, dest_ip: %pI4, tot_len: %d, ttl: %d, protocol: %s, data: %p\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data);
+    struct packet_data packet_data;
+    packet_data.src_ip = l3->saddr;
+    packet_data.dest_ip = l3->daddr;
+    packet_data.tot_len = bpf_ntohs(l3->tot_len);
+    packet_data.ttl = l3->ttl;
+    strcpy(packet_data.protocol, PROTOCOL);
+    memcpy(packet_data.data, data, 1024);
+
+    bpf_printk("src_ip:%pI4,dest_ip:%pI4,tot_len:%d,ttl:%d,protocol:%s,data:%s\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data); 
     return TC_ACT_OK;
 }
 
