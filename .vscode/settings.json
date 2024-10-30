@@ -2,6 +2,7 @@
     "files.associations": {
         "bpf.h": "c",
         "bpf_tracing.h": "c",
-        "bpf_helpers.h": "c"
+        "bpf_helpers.h": "c",
+        "string.h": "c"
     }
 }
