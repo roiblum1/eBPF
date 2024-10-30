@@ -11,7 +11,7 @@
 /// @tchook {"ifindex":1, "attach_point":"BPF_TC_INGRESS"}
 /// @tcopts {"handle":1, "priority":1}
 
-struct packet_data {
+struct packet_information {
     __u32 src_ip;
     __u32 dest_ip;
     __u16 tot_len;
@@ -62,7 +62,7 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
     
-    struct packet_data packet_data;
+    struct packet_information packet_data;
     packet_data.src_ip = l3->saddr;
     packet_data.dest_ip = l3->daddr;
     packet_data.tot_len = bpf_ntohs(l3->tot_len);
