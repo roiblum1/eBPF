@@ -1,4 +1,6 @@
-btftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
-./ecc main.c
-sudo ./ecli run package.json
-sudo cat /sys/kernel/debug/tracing/trace_pipe > output.txt
+ls
+rm vmlinux.h
+btftool btf dump file /sys/kernel/btf/vmlinux format c > /home/nehfaf/dev/vmlinux.h
+./ecc /home/nehfaf/dev/main.c
+sudo ./ecli run /home/nehfaf/dev/package.json
+sudo cat /sys/kernel/debug/tracing/trace_pipe 
