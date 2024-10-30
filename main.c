@@ -1,12 +1,10 @@
-#include <linux/types.h>
 #include "vmlinux.h"
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <string.h>
 #include <asm-generic/int-ll64.h>
-#include <stdbool.h>
-#include <linux/ip.h>
+
 
 #define TC_ACT_OK 0
 #define ETH_P_IP 0x0800 /* Internet Protocol packet */
@@ -41,6 +39,7 @@ static bool is_tcp(struct ethhdr *eth, void *data_end, char* protocol)
 }
 
 SEC("tc")
+
 int tc_ingress(struct __sk_buff *ctx)
 {
     void *data_end = (void *)(__u64)ctx->data_end;
