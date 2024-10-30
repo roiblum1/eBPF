@@ -2,22 +2,21 @@
 import os 
 import subprocess
 
-def start_sniffing():
-    
-  with open('commands.txt', 'r') as f:
-      commands = f.readlines()
-      os.chdir(r"/home/nehfaf/dev")
-      for command in commands:
-        command = command.strip()
-        ans = os.system(command)
-        if ans == 0:
-            print(f"{command} executed.")
-        else:
-            print(f"{command} failed.")
-      
+def read_file():
+    with open("/sys/kernel/debug/tracing/trace_pipe", "r") as trace:
+      for line in trace:
+        start_index = line.find("src_ip:")
+        if start_index != -1:
+          packet_information = line[start_index:]
+          print(packet_information)
+
+
+'''
+packet exmaple 
+src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:108,ttl:64,protocol:TCP,data:000000004c0f8588
+'''
 def main():
-  print("Start Snifing ...")
-  print("To stop enter ctrl+C") 
-  start_sniffing()
+    read_file()
+
 if __name__ == "__main__":
   main()

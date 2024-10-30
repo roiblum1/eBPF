@@ -3,7 +3,6 @@
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <string.h>
-#include <asm-generic/int-ll64.h>
 
 
 #define TC_ACT_OK 0
