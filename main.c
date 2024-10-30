@@ -1,8 +1,10 @@
 #include "vmlinux.h"
+#include <bpf/bpf.h>
 #include <bpf/bpf_endian.h>
 #include <bpf/bpf_helpers.h>
 #include <bpf/bpf_tracing.h>
 #include <string.h>
+#include <asm-generic/int-ll64.h>
 
 
 #define TC_ACT_OK 0
@@ -70,7 +72,7 @@ int tc_ingress(struct __sk_buff *ctx)
     strcpy(packet_data.protocol, PROTOCOL);
     memcpy(packet_data.data, data, 1024);
 
-    bpf_printk("src_ip:%pI4,dest_ip:%pI4,tot_len:%d,ttl:%d,protocol:%s,data:%s\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data); 
+    bpf_printk("src_ip:%pI4,dest_ip:%pI4,tot_len:%d,ttl:%d,protocol:%s,data:%p\n", l3->saddr, l3->daddr, bpf_ntohs(l3->tot_len), l3->ttl, PROTOCOL,(void*)data); 
     return TC_ACT_OK;
 }
 

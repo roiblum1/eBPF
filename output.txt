@@ -1,0 +1,247 @@
+            sshd-9289    [000] ...s2..  2889.989346: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:96,ttl:64,protocol:TCP,data:0000000020a06e75
+
+            sshd-9289    [000] ...s2..  2889.989366: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000bf4a9a7b
+
+            sshd-9289    [000] ...s2..  2890.017258: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:96,ttl:64,protocol:TCP,data:00000000bf4a9a7b
+
+            sshd-9289    [000] ...s2..  2890.017278: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000006b536b2d
+
+            sshd-9289    [000] ...s2..  2893.999365: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:128,ttl:64,protocol:TCP,data:00000000bf4a9a7b
+
+            sshd-9289    [000] ...s2..  2893.999389: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000077b1db34
+
+ code-912bb68369-9361    [000] ...s2..  2894.084086: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:129,ttl:64,protocol:TCP,data:00000000084f4976
+
+ code-912bb68369-9361    [000] ...s2..  2894.084115: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000009de3292d
+
+ code-912bb68369-9361    [000] ...s2..  2894.171589: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:113,ttl:64,protocol:TCP,data:000000009de3292d
+
+ code-912bb68369-9361    [000] ...s2..  2894.171613: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000053973ffa
+
+            sshd-9289    [000] ...s2..  2894.460019: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:110,ttl:64,protocol:TCP,data:00000000afd6655d
+
+ code-912bb68369-9361    [000] ...s2..  2894.462391: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:111,ttl:64,protocol:TCP,data:00000000e6d4dc23
+
+ code-912bb68369-9361    [000] ...s2..  2894.462415: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000afd6655d
+
+            sshd-9289    [000] ...s2..  2895.179544: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:110,ttl:64,protocol:TCP,data:00000000e6d4dc23
+
+            sshd-9289    [000] ...s2..  2895.279098: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:108,ttl:64,protocol:TCP,data:000000009de3292d
+
+ code-912bb68369-9361    [000] ...s2..  2895.310598: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:323,ttl:64,protocol:TCP,data:0000000053973ffa
+
+ code-912bb68369-9361    [000] ...s2..  2895.310624: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000084f4976
+
+            sshd-9289    [000] ...s2..  2895.369119: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:120,ttl:64,protocol:TCP,data:00000000bf4daae2
+
+ code-912bb68369-9361    [000] ...s2..  2895.373650: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:124,ttl:64,protocol:TCP,data:0000000053973ffa
+
+ code-912bb68369-9361    [000] ...s2..  2895.373672: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000afd6655d
+
+            sshd-9289    [000] ...s2..  2895.419973: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:374,ttl:64,protocol:TCP,data:000000001628b665
+
+CPU:1 [LOST 37 EVENTS]
+ code-912bb68369-9361    [001] ...s2..  2895.433973: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:179,ttl:64,protocol:TCP,data:00000000db2965cf
+
+ code-912bb68369-9361    [001] ...s2..  2895.433999: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000004fca72e2
+
+            sshd-9289    [001] ...s2..  2895.479248: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:129,ttl:64,protocol:TCP,data:00000000fd3d420a
+
+            sshd-9289    [001] ...s2..  2895.480244: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:140,ttl:64,protocol:TCP,data:000000008b900798
+
+ tokio-runtime-w-9367    [000] ...s2..  2895.480294: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000afd6655d
+
+            sshd-9289    [001] ...s2..  2895.539813: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:380,ttl:64,protocol:TCP,data:000000001f6502f9
+
+ code-912bb68369-9361    [000] ...s2..  2895.542136: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:138,ttl:64,protocol:TCP,data:00000000afd6655d
+
+ code-912bb68369-9361    [000] ...s2..  2895.542161: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000053973ffa
+
+ code-912bb68369-9361    [000] ...s2..  2895.542179: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:119,ttl:64,protocol:TCP,data:0000000053973ffa
+
+ code-912bb68369-9361    [000] ...s2..  2895.542188: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000084f4976
+
+            sshd-9289    [001] ...s2..  2895.546835: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:132,ttl:64,protocol:TCP,data:000000008b900798
+
+            sshd-9289    [001] ...s2..  2895.580254: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:287,ttl:64,protocol:TCP,data:00000000fd3d420a
+
+            sshd-9289    [001] ...s2..  2895.580272: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000004fca72e2
+
+ code-912bb68369-9361    [001] ...s2..  2895.583086: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:110,ttl:64,protocol:TCP,data:000000004fca72e2
+
+          <idle>-0       [001] ...s2..  2895.623821: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000f8294b24
+
+          <idle>-0       [001] ...s2..  2895.623859: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:1194,ttl:64,protocol:TCP,data:00000000fd3d420a
+
+          <idle>-0       [001] .N.s2..  2895.623871: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000f8294b24
+
+ code-912bb68369-9361    [000] ...s2..  4155.890624: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:218,ttl:64,protocol:TCP,data:000000001cd3e784
+
+ code-912bb68369-9361    [000] ...s2..  4155.890651: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000006a3f073f
+
+            sshd-9289    [001] ...s2..  4155.980408: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:175,ttl:64,protocol:TCP,data:00000000af64dbdd
+
+ code-912bb68369-9361    [000] ...s2..  4155.982108: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:117,ttl:64,protocol:TCP,data:00000000a7fa8ace
+
+ code-912bb68369-9361    [000] ...s2..  4155.982131: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000c199e17d
+
+            sshd-9289    [001] ...s2..  4156.010495: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:214,ttl:64,protocol:TCP,data:000000007588f9e7
+
+ code-912bb68369-9361    [001] ...s2..  4156.012109: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:117,ttl:64,protocol:TCP,data:0000000027447bc4
+
+          <idle>-0       [001] ...s2..  4156.053109: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000007588f9e7
+
+            sshd-9289    [000] ...s2..  4156.058471: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:114,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ code-912bb68369-9361    [000] ...s2..  4156.060020: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:117,ttl:64,protocol:TCP,data:00000000cab3b9f1
+
+ code-912bb68369-9361    [000] ...s2..  4156.060052: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+            sshd-9289    [001] ...s2..  4156.260727: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:111,ttl:64,protocol:TCP,data:0000000027447bc4
+
+ code-912bb68369-9361    [001] ...s2..  4156.262513: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:130,ttl:64,protocol:TCP,data:00000000428bbd72
+
+            sshd-9289    [000] ...s2..  4156.262565: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000c199e17d
+
+            sshd-9289    [000] ...s2..  4156.400400: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:119,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ code-912bb68369-9361    [000] ...s2..  4156.402499: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:206,ttl:64,protocol:TCP,data:0000000006070e29
+
+            sshd-9289    [001] ...s2..  4156.402561: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000027447bc4
+
+            sshd-9289    [001] ...s2..  4156.409066: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:112,ttl:64,protocol:TCP,data:00000000428bbd72
+
+ code-912bb68369-9361    [001] ...s2..  4156.411071: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:130,ttl:64,protocol:TCP,data:000000007588f9e7
+
+          <idle>-0       [001] ...s2..  4156.452078: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000428bbd72
+
+            sshd-9289    [000] ...s2..  4156.461638: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:118,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ code-912bb68369-9361    [000] ...s2..  4156.463458: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:156,ttl:64,protocol:TCP,data:00000000628fd7f4
+
+            sshd-9289    [000] ...s2..  4156.463532: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+            sshd-9289    [000] ...s2..  4156.531189: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:153,ttl:64,protocol:TCP,data:00000000628fd7f4
+
+ code-912bb68369-9361    [000] ...s2..  4156.533240: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:137,ttl:64,protocol:TCP,data:0000000019319f06
+
+            sshd-9289    [001] ...s2..  4156.533294: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000007588f9e7
+
+ code-912bb68369-9361    [000] ...s2..  4156.556950: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:142,ttl:64,protocol:TCP,data:0000000072f969f6
+
+            sshd-9289    [000] ...s2..  4156.557011: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000019319f06
+
+ code-912bb68369-9361    [001] ...s2..  4156.571655: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:126,ttl:64,protocol:TCP,data:00000000a90330bd
+
+            sshd-9289    [001] ...s2..  4156.571712: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000e0aa0997
+
+ code-912bb68369-9361    [000] ...s2..  4156.574369: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:342,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+            sshd-9289    [000] ...s2..  4156.574416: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000072f969f6
+
+            sshd-9289    [000] ...s2..  4156.578350: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:120,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ code-912bb68369-9361    [001] ...s2..  4156.579463: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:142,ttl:64,protocol:TCP,data:00000000a90330bd
+
+          <idle>-0       [001] ...s2..  4156.620050: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000af64dbdd
+
+ code-912bb68369-9361    [001] ...s2..  4156.660819: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:135,ttl:64,protocol:TCP,data:00000000a77293dc
+
+            sshd-9289    [000] ...s2..  4156.660873: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000cab3b9f1
+
+ code-912bb68369-9361    [000] ...s2..  4156.675257: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:320,ttl:64,protocol:TCP,data:00000000c199e17d
+
+            sshd-9289    [001] ...s2..  4156.675314: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000a90330bd
+
+            sshd-9289    [001] ...s2..  4156.680316: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:143,ttl:64,protocol:TCP,data:00000000af64dbdd
+
+            sshd-9289    [001] ...s2..  4156.688142: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:336,ttl:64,protocol:TCP,data:0000000027447bc4
+
+ tokio-runtime-w-9368    [000] ...s2..  4156.688182: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000628fd7f4
+
+            sshd-9289    [001] ...s2..  4156.751136: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:168,ttl:64,protocol:TCP,data:00000000a7fa8ace
+
+            sshd-9289    [000] ...s2..  4156.751497: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:181,ttl:64,protocol:TCP,data:0000000019319f06
+
+ tokio-runtime-w-9368    [000] ...s2..  4156.751534: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ code-912bb68369-9361    [000] ...s2..  4156.752212: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:168,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+          <idle>-0       [000] ...s2..  4156.793066: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000019319f06
+
+          <idle>-0       [000] ...s2..  4156.793099: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:119,ttl:64,protocol:TCP,data:000000003692f48f
+
+            sshd-9289    [001] ...s2..  4156.793179: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000721f37cb
+
+            sshd-9289    [001] ...s2..  4156.820716: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:114,ttl:64,protocol:TCP,data:0000000095e12044
+
+          <idle>-0       [001] ...s2..  4156.861204: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:000000000cb14fb2
+
+ code-912bb68369-9361    [001] ...s2..  4156.875725: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:117,ttl:64,protocol:TCP,data:000000000cb14fb2
+
+            sshd-9289    [000] ...s2..  4156.898504: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:109,ttl:64,protocol:TCP,data:00000000b99cccbd
+
+ tokio-runtime-w-9368    [001] ...s2..  4156.898570: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000095e12044
+
+ code-912bb68369-9361    [000] ...s2..  4156.900222: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:122,ttl:64,protocol:TCP,data:00000000cab3b9f1
+
+          <idle>-0       [000] ...s2..  4156.941623: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000006070e29
+
+            sshd-9289    [001] ...s2..  4156.980291: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:112,ttl:64,protocol:TCP,data:0000000000be9b5a
+
+          <idle>-0       [001] .N.s2..  4157.021091: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000071b4f103
+
+            sshd-9289    [001] ...s2..  4157.030593: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:112,ttl:64,protocol:TCP,data:0000000000be9b5a
+
+ tokio-runtime-w-9368    [000] ...s2..  4157.030657: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000006070e29
+
+ code-912bb68369-9361    [001] ...s2..  4157.032511: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:122,ttl:64,protocol:TCP,data:000000008506c616
+
+            sshd-9289    [000] ...s2..  4157.032564: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000006070e29
+
+            sshd-9289    [000] ...s2..  4157.070155: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:128,ttl:64,protocol:TCP,data:00000000cab3b9f1
+
+ code-912bb68369-9361    [000] ...s2..  4157.072147: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:135,ttl:64,protocol:TCP,data:00000000628fd7f4
+
+          <idle>-0       [000] ...s2..  4157.113070: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000cab3b9f1
+
+            sshd-9289    [001] ...s2..  4159.224770: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:149,ttl:64,protocol:TCP,data:0000000023f7f1f2
+
+          <idle>-0       [001] ...s2..  4159.265057: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000000be9b5a
+
+ code-912bb68369-9361    [001] ...s2..  4159.959118: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:106,ttl:64,protocol:TCP,data:00000000fd7e6b02
+
+ code-912bb68369-9361    [001] ...s2..  4159.959146: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000925e3d71
+
+            sshd-9289    [000] ...s2..  4159.978166: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:142,ttl:64,protocol:TCP,data:000000002ba14fad
+
+            sshd-9289    [000] ...s2..  4159.978185: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000a7fa8ace
+
+            sshd-9289    [000] ...s2..  4160.145016: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:114,ttl:64,protocol:TCP,data:0000000051ffe8bb
+
+            sshd-9289    [000] ...s2..  4160.145049: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000052ee21d3
+
+ code-912bb68369-9361    [000] ...s2..  4160.147071: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:137,ttl:64,protocol:TCP,data:0000000052ee21d3
+
+          <idle>-0       [000] ...s2..  4160.188014: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000096fcf1f5
+
+            sshd-9289    [000] ...s2..  4160.378825: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:235,ttl:64,protocol:TCP,data:0000000051ffe8bb
+
+ code-912bb68369-9361    [000] ...s2..  4160.380890: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:189,ttl:64,protocol:TCP,data:00000000a5ae65d4
+
+ code-912bb68369-9361    [000] ...s2..  4160.380917: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:0000000051ffe8bb
+
+ code-912bb68369-9361    [000] ...s2..  4160.545006: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:104,ttl:64,protocol:TCP,data:0000000051ffe8bb
+
+ code-912bb68369-9361    [000] ...s2..  4160.545038: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000cdbd0cae
+
+            sshd-9289    [001] ...s2..  4160.580537: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:164,ttl:64,protocol:TCP,data:0000000044987859
+
+ code-912bb68369-9361    [000] ...s2..  4160.581185: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:118,ttl:64,protocol:TCP,data:0000000053f22ce5
+
+          <idle>-0       [000] ...s2..  4160.622996: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000817fd771
+
+          <idle>-0       [000] ...s2..  4160.623017: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:179,ttl:64,protocol:TCP,data:0000000044987859
+
+          <idle>-0       [000] .N.s2..  4160.623028: bpf_trace_printk: src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:52,ttl:64,protocol:TCP,data:00000000817fd771
+
