@@ -3,6 +3,7 @@ import os
 from typing import Optional
 from pydantic import BaseModel
 from bcc import BPF
+import 
 
 class PacketInformation(BaseModel):
     src_ip: str
@@ -36,18 +37,34 @@ def read_file_tracing():
         print("\nStoppped Capturing")
         return packet_list
 '''
-packet exmaple 
+packet example 
 src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:108,ttl:64,protocol:TCP,data:000000004c0f8588
 '''
 
+def bytes_to_ip(ip_in_bytes):
+    ip_addr = socket.inet_ntoa(ip_in_bytes)
+    return ip_addr
 def read_maps():
-    BPF.get_table("packet_map")
-    BPF.get_table("aggregate_map")
-    BPF.get_table("global_map") 
+    packet_map = BPF.get_table("packet_map")
+    aggregate_map = BPF.get_table("aggregate_map")
+    global_map = BPF.get_table("global_map") 
+        
+    print("Packet Map details ")
+    for k, v in packet_map.items():
+        print(f"{k}: {v}")
     
+    print("Aggregate Map details ")
+    for k, v in aggregate_map.items():
+        print(f"{k}: {v}")
+    
+    print("Global Map details ")
+    for k, v in global_map.items():
+        print(f"{k}: {v}")
+
 def main():
     packet_list = read_file_tracing()
     print(packet_list)
+    read_maps()
     
 if __name__ == "__main__":
   main()
