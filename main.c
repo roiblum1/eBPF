@@ -13,7 +13,6 @@
 struct packet_information {
     __u32 src_ip;
     __u32 dst_ip;
-    __u64 packet_count; 
     //down here is the last package details.
     __u16 tot_len;
     __u8 ttl;
@@ -60,7 +59,8 @@ struct {
     __uint(pinning, LIBBPF_PIN_BY_NAME);
 } packet_map SEC(".maps");
 
-// Helper function to check if the packet is TCP
+// Helper function to check if the packet is the protocol that we are interested in.
+// NOTE: The relevant protocol is configured in the Global variable "PROTOCOL".
 static bool is_protocol(struct ethhdr *eth, void *data_end, char* protocol)
 {
     struct iphdr *ip = (struct iphdr *)(eth + 1);
@@ -77,8 +77,10 @@ static bool is_protocol(struct ethhdr *eth, void *data_end, char* protocol)
     return true;
 }
 
+//https://stackoverflow.com/questions/67553794/what-is-variable-attribute-sec-means
 SEC("tc")
 
+//this function is the main function that will be called when a packet is received.
 int tc_ingress(struct __sk_buff *ctx)
 {
     bpf_printk("tc_ingress function called\n");
@@ -100,25 +102,22 @@ int tc_ingress(struct __sk_buff *ctx)
     if ((void *)(l3 + 1) > data_end)
         return TC_ACT_OK;
 
-
+    //filter the packets to the protocol we are interested in. 
     if (!is_protocol(l2, data_end, PROTOCOL)) {
         return TC_ACT_OK;
     }
     
+    //create the key structure for the map. 
     struct packet_map_key key_map; 
     key_map.src_ip = l3->saddr;
     key_map.dst_ip = l3->daddr;
 
+    //update the last packet information for this pair of ip. 
     struct packet_information *packet_data = bpf_map_lookup_elem(&packet_map, &key_map);
     if (packet_data == NULL) {
         //this is the case where we create a new entry for this pair of ip
         packet_data->src_ip = l3->saddr;
         packet_data->dst_ip = l3->daddr;
-        packet_data->packet_count = 1;
-    }
-    else {
-        //this is the case where we update the packet data for this pair of ip
-        packet_data->packet_count += 1;
     }
     packet_data->tot_len = bpf_ntohs(l3->tot_len);
     packet_data->ttl = l3->ttl;
@@ -157,6 +156,7 @@ int tc_ingress(struct __sk_buff *ctx)
         
     bpf_map_update_elem(&packets_aggregate_map, &key_map, aggregate_data, BPF_ANY);
     
+    //this section of the code will update the map of the global statistics.
     __u32 global_key = 1; 
     struct packet_aggregate *global_aggregate = bpf_map_lookup_elem(&global_aggregate_data, &global_key);
     if (global_aggregate == NULL)
