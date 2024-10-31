@@ -113,16 +113,13 @@ int tc_ingress(struct __sk_buff *ctx)
     key_map.dst_ip = l3->daddr;
 
     //update the last packet information for this pair of ip. 
-    struct packet_information *packet_data = bpf_map_lookup_elem(&packet_map, &key_map);
-    if (packet_data == NULL) {
-        //this is the case where we create a new entry for this pair of ip
-        packet_data->src_ip = l3->saddr;
-        packet_data->dst_ip = l3->daddr;
-    }
-    packet_data->tot_len = bpf_ntohs(l3->tot_len);
-    packet_data->ttl = l3->ttl;
-    strcpy(packet_data->protocol, PROTOCOL);
-    
+    struct packet_information packet_data;
+    packet_data.src_ip = l3->saddr;
+    packet_data.dst_ip = l3->daddr;
+    packet_data.tot_len = bpf_ntohs(l3->tot_len);
+    packet_data.ttl = l3->ttl;
+    strcpy(packet_data.protocol, PROTOCOL);
+
     //to ensure theat the data size is 256 bytes
     int data_size = data_end - data;
     if (data_size > 256)
@@ -133,17 +130,19 @@ int tc_ingress(struct __sk_buff *ctx)
         //I have got an error without it. 
         if ((void *)(data + i + 1) > data_end)
             break;
-        packet_data->data[i] = ((char *)data)[i];
+        packet_data.data[i] = ((char *)data)[i];
     }
-    
     bpf_map_update_elem(&packet_map, &key_map, &packet_data, BPF_ANY);
 
     struct packet_aggregate *aggregate_data= bpf_map_lookup_elem(&packets_aggregate_map, &key_map);
     if (aggregate_data == NULL) {
         //this is the case where we create a new aggregate for this pair of ip
-        aggregate_data->total_packet_count = 1;
-        aggregate_data->total_packet_length = bpf_ntohs(l3->tot_len);
-        aggregate_data->avg_ttl = l3->ttl;
+        struct packet_aggregate new_packet_aggregate; 
+        new_packet_aggregate.total_packet_count = 1;
+        new_packet_aggregate.total_packet_length = bpf_ntohs(l3->tot_len);
+        new_packet_aggregate.avg_ttl = l3->ttl;
+        bpf_map_update_elem(&packets_aggregate_map, &key_map, &new_packet_aggregate, BPF_ANY);
+
     }
     else
     {
@@ -152,18 +151,20 @@ int tc_ingress(struct __sk_buff *ctx)
         aggregate_data->total_packet_length += bpf_ntohs(l3->tot_len);
         aggregate_data->avg_ttl += l3->ttl;
         aggregate_data->avg_ttl /= aggregate_data->total_packet_count;
+        //bpf_map_update_elem(&packets_aggregate_map, &key_map, aggregate_data, BPF_ANY);
+
     }   
-        
-    bpf_map_update_elem(&packets_aggregate_map, &key_map, aggregate_data, BPF_ANY);
-    
+            
     //this section of the code will update the map of the global statistics.
     __u32 global_key = 1; 
     struct packet_aggregate *global_aggregate = bpf_map_lookup_elem(&global_aggregate_data, &global_key);
     if (global_aggregate == NULL)
     {
-        global_aggregate->total_packet_count = 1;
-        global_aggregate->total_packet_length = bpf_ntohs(l3->tot_len);
-        global_aggregate->avg_ttl = l3->ttl;
+        struct packet_aggregate new_global_aggregate;
+        new_global_aggregate.total_packet_count = 1;
+        new_global_aggregate.total_packet_length = bpf_ntohs(l3->tot_len);
+        new_global_aggregate.avg_ttl = l3->ttl;
+        bpf_map_update_elem(&global_aggregate_data, &global_key, &new_global_aggregate, BPF_ANY);
     }
     else 
     {
@@ -171,8 +172,8 @@ int tc_ingress(struct __sk_buff *ctx)
         global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
         global_aggregate->avg_ttl += l3->ttl;
         global_aggregate->avg_ttl /= global_aggregate->total_packet_count;
+        //bpf_map_update_elem(&global_aggregate_data, &global_key, &global_aggregate, BPF_ANY);
     }
-    bpf_map_update_elem(&global_aggregate_data, &global_key, global_aggregate, BPF_ANY);
 
     //I need to implement the convertor.
     unsigned char *src_ip_bytes = (unsigned char *)&key_map.src_ip;
@@ -182,7 +183,7 @@ int tc_ingress(struct __sk_buff *ctx)
     bpf_printk("src_ip:%d.%d.%d.%d,dest_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s,data:%p\n",
     src_ip_bytes[0], src_ip_bytes[1], src_ip_bytes[2], src_ip_bytes[3],
     dst_ip_bytes[0], dst_ip_bytes[1], dst_ip_bytes[2], dst_ip_bytes[3], 
-    packet_data->tot_len, packet_data->ttl, packet_data->protocol, packet_data->data); 
+    packet_data.tot_len, packet_data.ttl, packet_data.protocol, packet_data.data); 
    
     return TC_ACT_OK;
 }

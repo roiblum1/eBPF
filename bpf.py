@@ -45,9 +45,10 @@ def bytes_to_ip(ip_in_bytes):
     ip_addr = socket.inet_ntoa(ip_in_bytes)
     return ip_addr
 def read_maps():
-    packet_map = BPF.get_table("packet_map")
-    aggregate_map = BPF.get_table("aggregate_map")
-    global_map = BPF.get_table("global_map") 
+    bpf = BPF()
+    packet_map = bpf.get_table("packet_map")
+    aggregate_map = bpf.get_table("aggregate_map")
+    global_map = bpf.get_table("global_map") 
         
     print("Packet Map details ")
     for k, v in packet_map.items():
