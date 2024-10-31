@@ -28,7 +28,7 @@ struct packet_map_key {
 struct packet_aggregate{
     __u64 total_packet_count; 
     __u64 total_packet_length;
-    __u64 avg_ttl;
+    __u64 total_ttl;
 };
 
 //this map will aggregate statistics for each unique IP pair
@@ -140,7 +140,7 @@ int tc_ingress(struct __sk_buff *ctx)
         struct packet_aggregate new_packet_aggregate; 
         new_packet_aggregate.total_packet_count = 1;
         new_packet_aggregate.total_packet_length = bpf_ntohs(l3->tot_len);
-        new_packet_aggregate.avg_ttl = l3->ttl;
+        new_packet_aggregate.total_ttl = l3->ttl;
         bpf_map_update_elem(&packets_aggregate_map, &key_map, &new_packet_aggregate, BPF_ANY);
 
     }
@@ -149,8 +149,7 @@ int tc_ingress(struct __sk_buff *ctx)
         //this is the case where we update the aggregate for this pair of ip
         aggregate_data->total_packet_count += 1;
         aggregate_data->total_packet_length += bpf_ntohs(l3->tot_len);
-        aggregate_data->avg_ttl += l3->ttl;
-        aggregate_data->avg_ttl /= aggregate_data->total_packet_count;
+        aggregate_data->total_ttl += l3->ttl;
         //bpf_map_update_elem(&packets_aggregate_map, &key_map, aggregate_data, BPF_ANY);
 
     }   
@@ -163,15 +162,14 @@ int tc_ingress(struct __sk_buff *ctx)
         struct packet_aggregate new_global_aggregate;
         new_global_aggregate.total_packet_count = 1;
         new_global_aggregate.total_packet_length = bpf_ntohs(l3->tot_len);
-        new_global_aggregate.avg_ttl = l3->ttl;
+        new_global_aggregate.total_ttl = l3->ttl;
         bpf_map_update_elem(&global_aggregate_data, &global_key, &new_global_aggregate, BPF_ANY);
     }
     else 
     {
         global_aggregate->total_packet_count += 1;
         global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
-        global_aggregate->avg_ttl += l3->ttl;
-        global_aggregate->avg_ttl /= global_aggregate->total_packet_count;
+        global_aggregate->total_ttl += l3->ttl;
         //bpf_map_update_elem(&global_aggregate_data, &global_key, &global_aggregate, BPF_ANY);
     }
 

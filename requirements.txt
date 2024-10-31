@@ -1,5 +1,4 @@
-os
 typing
 pydantic
 bcc
-socket
+bpfmaps

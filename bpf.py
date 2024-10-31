@@ -44,17 +44,22 @@ src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:108,ttl:64,protocol:TCP,data:000000004c0f
 
 def write_list_file(packet_list: list):
     with open("packet.json", "w") as f:
-      json.dump([packet.dict() for packet in packet_list], f)
+      json.dump([packet.dict() for packet in packet_list], f, indent=4)
 
 def bytes_to_ip(ip_in_bytes):
     ip_addr = socket.inet_ntoa(ip_in_bytes)
     return ip_addr
+
 def read_maps():
-    bpf = BPF()
+    with open("main.o", "rb") as f:
+         bpf_program = f.read()
+    bpf = BPF(bpf_program)
+    function_tc_ingress = bpf.load_func("tc_ingress", BPF.SCHED_CLS)
+    bpf.attach_ingress(function_tc_ingress, "eth0")
     packet_map = bpf.get_table("packet_map")
     aggregate_map = bpf.get_table("packets_aggregate_map")
     global_map = bpf.get_table("global_aggregate_data")
-        
+
     print("Packet Map details ")
     for k, v in packet_map.items():
         print(f"{k}: {v}")
