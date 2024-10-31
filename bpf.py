@@ -3,7 +3,7 @@ import os
 from typing import Optional
 from pydantic import BaseModel
 from bcc import BPF
-import 
+import socket
 
 class PacketInformation(BaseModel):
     src_ip: str

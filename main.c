@@ -167,10 +167,10 @@ int tc_ingress(struct __sk_buff *ctx)
     }
     else 
     {
-        aggregate_data->total_packet_count += 1;
-        aggregate_data->total_packet_length += bpf_ntohs(l3->tot_len);
-        aggregate_data->avg_ttl += l3->ttl;
-        aggregate_data->avg_ttl /= aggregate_data->total_packet_count;
+        global_aggregate->total_packet_count += 1;
+        global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
+        global_aggregate->avg_ttl += l3->ttl;
+        global_aggregate->avg_ttl /= global_aggregate->total_packet_count;
     }
     bpf_map_update_elem(&global_aggregate_data, &global_key, global_aggregate, BPF_ANY);
 
