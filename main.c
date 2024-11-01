@@ -13,7 +13,6 @@
 struct packet_information {
     __u32 src_ip;
     __u32 dst_ip;
-    //down here is the last package details.
     __u16 tot_len;
     __u8 ttl;
     char protocol[4];

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 import json
 import os 
-from typing import Optional
-from pydantic import BaseModel, ValidationInfo, field_validator
 from bcc import BPF
 import socket
 from models.PacketObject import PacketInformation
@@ -50,8 +48,7 @@ def write_list_file(object_list: list, file_name: str):
         print(f"Error writing to file: {e}")
       
 def read_maps():
-    # Define the pin paths for your maps
-    PIN_PATH = "/sys/fs/bpf/"  # Update this path based on your setup
+    PIN_PATH = "/sys/fs/bpf/"  
     packet_map_path = os.path.join(PIN_PATH, "packet_map")
     packets_aggregate_map_path = os.path.join(PIN_PATH, "packets_aggregate_map")
     global_aggregate_data_path = os.path.join(PIN_PATH, "global_aggregate_data")
@@ -62,14 +59,15 @@ def read_maps():
     }
     """
     bpf = BPF(text=dummy_program)
-
-    # Open the pinned maps using get_table
     packet_map = bpf.get_table("packet_map", packet_map_path)
-    packets_aggregate_map = bpf.get_table("packets_aggregate_map", packets_aggregate_map_path)
-    global_aggregate_map = bpf.get_table("global_aggregate_data", global_aggregate_data_path)
+    aggregate_map = bpf.get_table("packets_aggregate_map", packets_aggregate_map_path)
+    global_map = bpf.get_table("global_aggregate_data", global_aggregate_data_path)
 
     print("Packet Map details ")
+    packets_maps = []  
     for k, v in packet_map.items():
+        packet_info = PacketInformation(**v)
+        packets_maps.append(packet_info)
         print(f"{k}: {v}")
     
     print("Aggregate Map details ")
