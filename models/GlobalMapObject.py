@@ -1,7 +1,7 @@
 from pydantic import BaseModel, computed_field
 from typing import Optional
 
-class PacketAggregate(BaseModel):
+class GlobalMap(BaseModel):
     total_packet_count: int
     total_packet_length: int
     total_ttl: int

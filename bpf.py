@@ -7,16 +7,12 @@ from bcc import BPF
 import socket
 from models.PacketObject import PacketInformation
 from models.MapKeyObject import PacketMapKey
+from models.AggregateMapObject import PacketAggregate
+from models.GlobalMapObject import GlobalMap
 
 def bytes_to_ip(ip_in_bytes: bytes) -> str:
     ip_addr = socket.inet_ntoa(ip_in_bytes)
     return ip_addr
-
-class PacketAggregate(BaseModel):
-    total_packet_count: int
-    total_packet_length: int
-    total_ttl: int
-
     
 def read_file_tracing():
     print("Started capturing.\nPress ctrl+c to stop...")
