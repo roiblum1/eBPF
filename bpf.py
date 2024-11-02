@@ -4,7 +4,7 @@ import os
 from bcc import BPF
 import socket
 from models.PacketObject import PacketInformation
-from models.AggregateMapObject import PacketAggregate
+from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap
 from models.GlobalMapObject import GlobalMap
 
 def bytes_to_ip(ip_in_bytes: bytes) -> str:
