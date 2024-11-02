@@ -41,7 +41,7 @@ def write_list_file(object_list: list, file_name: str):
     try:
         with open(file_name, "a") as f:
             for object in object_list:
-                f.write(json.dumps(object.dict()) + "\n")
+                f.write(json.dumps(object.dict(), indent=4) + "\n")
             print("Write the objects to file successfully.")
     except Exception as e:
         print(f"Error writing to file: {e}")
@@ -80,7 +80,7 @@ def read_maps():
 
 def main():
     packet_list = read_file_tracing()
-    write_list_file(packet_list)
+    write_list_file(packet_list, "packet_list.json")
     print(packet_list)
     read_maps()
     
