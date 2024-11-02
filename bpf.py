@@ -46,17 +46,17 @@ def write_list_file(object_list: list, file_name: str):
     except Exception as e:
         print(f"Error writing to file: {e}")
       
-def read_maps():
-    PIN_PATH = "/sys/fs/bpf/"  
-    packet_map_path = os.path.join(PIN_PATH, "packet_map")
-    packets_aggregate_map_path = os.path.join(PIN_PATH, "packets_aggregate_map")
-    global_aggregate_data_path = os.path.join(PIN_PATH, "global_aggregate_data")
+def read_maps(): 
+    packet_map_path = r"/sys/fs/bpf/packet_map"
+    packets_aggregate_map_path = r"/sys/fs/bpf/packets_aggregate_map"
+    global_aggregate_data_path = r"/sys/fs/bpf/global_aggregate_data"
 
     dummy_program = """
     int dummy(void *ctx) {
         return 0;
     }
     """
+    
     bpf = BPF(text=dummy_program)
     packet_map = bpf.get_table("packet_map", packet_map_path)
     aggregate_map = bpf.get_table("packets_aggregate_map", packets_aggregate_map_path)
