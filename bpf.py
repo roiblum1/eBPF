@@ -4,7 +4,6 @@ import os
 from bcc import BPF
 import socket
 from models.PacketObject import PacketInformation
-from models.MapKeyObject import PacketMapKey
 from models.AggregateMapObject import PacketAggregate
 from models.GlobalMapObject import GlobalMap
 
