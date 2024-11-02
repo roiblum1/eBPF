@@ -8,6 +8,14 @@ from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggre
 from models.GlobalMapObject import GlobalMap
 
 def bytes_to_ip(ip_in_bytes: bytes) -> str:
+    """
+    Converts a bytes object representing an IP address into a string.
+
+    :param ip_in_bytes: A bytes object containing the IP address in network byte order.
+    :type ip_in_bytes: bytes
+    :return: A string representation of the IP address.
+    :rtype: str
+    """
     ip_addr = socket.inet_ntoa(ip_in_bytes)
     return ip_addr
     
@@ -37,7 +45,19 @@ def read_file_tracing():
 packet example 
 src_ip:0.0.0.0,dest_ip:0.0.0.0,tot_len:108,ttl:64,protocol:TCP,data:000000004c0f8588
 '''
-def write_list_file(object_list: list, file_name: str):
+def write_list_file(object_list: list, file_name: str) -> None:
+    """
+    Writes a list of objects to a file in JSON format.
+
+    :param object_list: A list of objects to be written to the file.
+    :type object_list: list
+    :param file_name: The name of the file to which the objects will be written.
+    :type file_name: str
+    :return: None
+    :rtype: None
+
+    This function takes a list of objects and a file name as input. It then writes each object in the list to the specified file in JSON format, with each object on a new line. If an error occurs during the writing process, an error message will be printed.
+    """
     try:
         with open(file_name, "a") as f:
             for object in object_list:
