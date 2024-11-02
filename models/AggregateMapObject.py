@@ -7,7 +7,7 @@ class PacketAggregate(BaseModel):
     total_ttl: int
     @computed_field
     @property
-    def volume(self) -> float:
+    def avg_ttl(self) -> float:
         if(self.total_packet_count > 0):
             return self.total_packet_length / self.total_packet_count
         else:
