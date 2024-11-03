@@ -1,6 +1,5 @@
 typing
 pydantic
 bcc
-bpfmaps
 matplotlib
 numpy

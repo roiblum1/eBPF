@@ -6,18 +6,6 @@ import socket
 from models.PacketObject import PacketInformation
 from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap
 from models.GlobalMapObject import GlobalMap
-
-def bytes_to_ip(ip_in_bytes: bytes) -> str:
-    """
-    Converts a bytes object representing an IP address into a string.
-
-    :param ip_in_bytes: A bytes object containing the IP address in network byte order.
-    :type ip_in_bytes: bytes
-    :return: A string representation of the IP address.
-    :rtype: str
-    """
-    ip_addr = socket.inet_ntoa(ip_in_bytes)
-    return ip_addr
     
 def read_file_tracing():
     print("Started capturing.\nPress ctrl+c to stop...")

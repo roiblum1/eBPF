@@ -168,7 +168,7 @@ int tc_ingress(struct __sk_buff *ctx)
     else 
     {
         global_aggregate->total_packet_count += 1;
-        global_aggregate->total_packet_length += z(l3->tot_len);
+        global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
         global_aggregate->total_ttl += l3->ttl;
         //bpf_map_update_elem(&global_aggregate_data, &global_key, &global_aggregate, BPF_ANY);
     }
