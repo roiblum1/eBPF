@@ -2,14 +2,14 @@ from pydantic import BaseModel, computed_field, field_validator
 from typing import Optional
 import matplotlib.pyplot as plt
 import numpy as np
-import socket
+from Helpers.IPconverte import IPInterface
 
 class PacketMapKey(BaseModel):
     src_ip: str
     dst_ip: str
-    @field_validator('src_ip','dst_ip')
+    @field_validator('src_ip','dst_ip', mode="before")
     def convert_ip_to_string(cls, v):
-        return bytes_to_ip(v)
+        return IPInterface.converte_ip_str(v)
     
 class PacketAggregate(BaseModel):
     total_packet_count: int
@@ -58,17 +58,3 @@ def visualizeAggregateMap(packet_aggregate_map: list[PacketAggregateMap]):
 
     plt.ion()
     plt.show(block=True)
-
-def bytes_to_ip(ip_in_bytes):
-    """
-    Converts a bytes object representing an IP address into a string.
-
-    :param ip_in_bytes: A bytes object containing the IP address in network byte order.
-    :type ip_in_bytes: bytes
-    :return: A string representation of the IP address.
-    :rtype: str
-    """
-    if(type(ip_in_bytes) == str):
-        return ip_in_bytes
-    ip_addr = socket.inet_ntoa(ip_in_bytes)
-    return ip_addr
