@@ -1,0 +1,30 @@
+{
+    "total_packet_count": 180307,
+    "total_packet_length": 39680424,
+    "total_ttl": 11538027,
+    "avg_ttl": 220.07145590576073
+}
+{
+    "total_packet_count": 186821,
+    "total_packet_length": 40803135,
+    "total_ttl": 11934445,
+    "avg_ttl": 218.4076468919447
+}
+{
+    "total_packet_count": 190130,
+    "total_packet_length": 41596133,
+    "total_ttl": 12157002,
+    "avg_ttl": 218.77732604007784
+}
+{
+    "total_packet_count": 192216,
+    "total_packet_length": 42114411,
+    "total_ttl": 12295613,
+    "avg_ttl": 219.0994037957298
+}
+{
+    "total_packet_count": 193831,
+    "total_packet_length": 42422515,
+    "total_ttl": 12395825,
+    "avg_ttl": 218.8634171004638
+}

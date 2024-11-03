@@ -57,7 +57,8 @@ def visualizeAggregateMap(packet_aggregate_map: list[PacketAggregateMap]):
     ax.legend(loc='upper left', ncols=3)
     ax.set_ylim(0, 50000)
 
-    plt.show()
+    plt.ion()
+    plt.show(block=True)
 
 def bytes_to_ip(ip_in_bytes):
     """

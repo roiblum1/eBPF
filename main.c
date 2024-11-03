@@ -7,6 +7,7 @@
 #define TC_ACT_OK 0
 #define ETH_P_IP 0x0800 /* Internet Protocol packet */
 #define PROTOCOL "TCP"
+
 /// @tchook {"ifindex":2, "attach_point":"BPF_TC_INGRESS"}
 /// @tcopts {"handle":1, "priority":1}
 
@@ -77,6 +78,9 @@ static bool is_protocol(struct ethhdr *eth, void *data_end, char* protocol)
 }
 
 //https://stackoverflow.com/questions/67553794/what-is-variable-attribute-sec-means
+
+/// @tchook {"ifindex":2, "attach_point":"BPF_TC_INGRESS"}
+/// @tcopts {"handle":1, "priority":1}
 SEC("tc")
 
 //this function is the main function that will be called when a packet is received.
