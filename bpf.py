@@ -124,13 +124,15 @@ def read_maps():
     value = global_map_dict[0]["value"]
     global_map = GlobalMap(**value)
     write_list_file([global_map], "global_map.json") 
-    
+    return aggregate_maps, global_map
     
 def main():
     packet_list = read_file_tracing()
     write_list_file(packet_list, "packet_list.json")
     print(packet_list)
-    read_maps()
+    aggregate_maps, global_map = read_maps()
+    visualizeAggregateMap(aggregate_maps)
+    global_map.visualize()
     
 if __name__ == "__main__":
   main()

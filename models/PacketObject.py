@@ -13,6 +13,10 @@ class PacketInformation(BaseModel):
     @field_validator('src_ip','dest_ip')
     def convert_ip_to_string(cls, v):
         return bytes_to_ip(v)
+    
+    @field_validator('data')
+    def converte_data_type(clv, v):
+        return str(v)
 
 def bytes_to_ip(ip_in_bytes):
     """
@@ -25,5 +29,8 @@ def bytes_to_ip(ip_in_bytes):
     """
     if(type(ip_in_bytes) == str):
         return ip_in_bytes
-    ip_addr = socket.inet_ntoa(ip_in_bytes)
-    return ip_addr
+    if(type(ip_in_bytes) == bytes):
+        return socket.inet_ntoa(ip_in_bytes)
+    if(type(ip_in_bytes) == int):
+        return socket.inet_ntoa(ip_in_bytes.to_bytes(4, 'big'))
+    return ip_in_bytes

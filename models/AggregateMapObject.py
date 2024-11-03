@@ -50,7 +50,6 @@ def visualizeAggregateMap(packet_aggregate_map: list[PacketAggregateMap]):
         ax.bar_label(rects, padding=3)
         multiplier += 1
 
-    # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel('Length (mm)')
     ax.set_title('Penguin attributes by species')
     ax.set_xticks(x + width, keys)

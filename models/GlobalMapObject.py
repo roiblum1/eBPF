@@ -22,13 +22,13 @@ class GlobalMap(BaseModel):
             'Average TTL': (self.avg_ttl)
         }
         
-        width = 0.25  # the width of the bars
+        width = 0.25  
         multiplier = 0
-        ax = plt.subplots(layout='constrained')
+        fig, ax = plt.subplots(layout='constrained')
 
         for attribute, measurement in metrics.items():
             offset = width * multiplier
-            rects = ax.bar(offset, measurement, width, label=attribute)
+            rects = ax.bar([offset], [measurement], width, label=attribute)
             ax.bar_label(rects, padding=3)
             multiplier += 1
 
