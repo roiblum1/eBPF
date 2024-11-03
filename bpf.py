@@ -117,15 +117,14 @@ def read_maps():
         aggregate_maps.append(packet_aggregate_map)
     write_list_file(aggregate_maps, "aggregate_map.json")
     
-    visualizeAggregateMap(aggregate_maps)
-    
     global_map_dict = json.loads(global_map)
     key = global_map_dict[0]["key"]
     value = global_map_dict[0]["value"]
     global_map = GlobalMap(**value)
     write_list_file([global_map], "global_map.json") 
     return aggregate_maps, global_map
-    
+
+
 def main():
     packet_list = read_file_tracing()
     write_list_file(packet_list, "packet_list.json")

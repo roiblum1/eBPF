@@ -94,3 +94,15 @@
     "total_ttl": 19896412,
     "avg_ttl": 229.58643193301958
 }
+{
+    "total_packet_count": 322552,
+    "total_packet_length": 73416042,
+    "total_ttl": 21371063,
+    "avg_ttl": 227.6099419628463
+}
+{
+    "total_packet_count": 328059,
+    "total_packet_length": 74555002,
+    "total_ttl": 21716519,
+    "avg_ttl": 227.26095610850487
+}
