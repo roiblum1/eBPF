@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
-import os 
+import os
+import subprocess 
 from bcc import BPF
 import socket
 from models.PacketObject import PacketInformation
@@ -53,39 +54,29 @@ def write_list_file(object_list: list, file_name: str) -> None:
             print("Write the objects to file successfully.")
     except Exception as e:
         print(f"Error writing to file: {e}")
-      
+
+def get_map(map_path: str):
+    command = fr"sudo bpftool map dump pinned {map_path}"
+    output = subprocess.check_output(command, shell=True)
+    print(output.decode('utf-8'))
+    return output.decode('utf-8')
+    
+    
 def read_maps(): 
     packet_map_path = r"/sys/fs/bpf/packet_map"
     packets_aggregate_map_path = r"/sys/fs/bpf/packets_aggregate_map"
     global_aggregate_data_path = r"/sys/fs/bpf/global_aggregate_data"
-
-    dummy_program = """
-    int dummy(void *ctx) {
-        return 0;
-    }
-    """
-    
-    bpf = BPF(text=dummy_program)
-    packet_map = bpf.get_table("packet_map", packet_map_path)
-    aggregate_map = bpf.get_table("packets_aggregate_map", packets_aggregate_map_path)
-    global_map = bpf.get_table("global_aggregate_data", global_aggregate_data_path)
+    packet_map = get_map(packet_map_path)
+    aggregate_map = get_map(packets_aggregate_map_path)
+    global_map = get_map(global_aggregate_data_path)
 
     print("Packet Map details ")
     packets_maps = []  
-    for k, v in packet_map.items():
-        packet_info = PacketInformation(**v)
-        packets_maps.append(packet_info)
-        print(f"{k}: {v}")
+    packet_map_dict = json.loads(packet_map)
+    print(PacketMapKey(**packet_map_dict[0]["key"]))
+    print(PacketInformation(**packet_map_dict[0]['value']))
+        
     
-    print("Aggregate Map details ")
-    for k, v in aggregate_map.items():
-        print(f"{k}: {v}")
-    
-    print("Global Map details ")
-    for k, v in global_map.items():
-        print(f"{k}: {v}")
-            
-
 def main():
     packet_list = read_file_tracing()
     write_list_file(packet_list, "packet_list.json")
