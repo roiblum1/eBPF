@@ -3,3 +3,4 @@ pydantic
 bcc
 matplotlib
 numpy
+ipaddress

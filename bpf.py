@@ -7,20 +7,7 @@ import socket
 from models.PacketObject import PacketInformation
 from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap, visualizeAggregateMap
 from models.GlobalMapObject import GlobalMap
-    
-def bytes_to_ip(ip_in_bytes):
-    """
-    Converts a bytes object representing an IP address into a string.
-
-    :param ip_in_bytes: A bytes object containing the IP address in network byte order.
-    :type ip_in_bytes: bytes
-    :return: A string representation of the IP address.
-    :rtype: str
-    """
-    if(type(ip_in_bytes) == str):
-        return ip_in_bytes
-    ip_addr = socket.inet_ntoa(ip_in_bytes)
-    return ip_addr
+from Helpers.IPconverte import IPInterface
 
 def read_file_tracing():
     print("Started capturing.\nPress ctrl+c to stop...")
@@ -62,7 +49,8 @@ def write_list_file(object_list: list, file_name: str) -> None:
     This function takes a list of objects and a file name as input. It then writes each object in the list to the specified file in JSON format, with each object on a new line. If an error occurs during the writing process, an error message will be printed.
     """
     try:
-        with open(file_name, "a") as f:
+        path = rf"logs/{file_name}"
+        with open(path, "a") as f:
             for object in object_list:
                 f.write(json.dumps(object.dict(), indent=4) + "\n")
             print("Write the objects to file successfully.")
@@ -75,11 +63,11 @@ def int_to_ip(ip_int):
 def get_map(map_path: str):
     command = fr"sudo bpftool map dump pinned {map_path}"
     output = subprocess.check_output(command, shell=True)
-    print(output.decode('utf-8'))
     return output.decode('utf-8')
     
     
 def read_maps(): 
+    MAX_Total_Packet = 100000
     packet_map_path = r"/sys/fs/bpf/packet_map"
     packets_aggregate_map_path = r"/sys/fs/bpf/packets_aggregate_map"
     global_aggregate_data_path = r"/sys/fs/bpf/global_aggregate_data"
@@ -93,27 +81,29 @@ def read_maps():
     for map in packet_map_dicts:
         key = map["key"]
         value = map["value"]
-        key["src_ip"] = int_to_ip(key["src_ip"])
-        key["dst_ip"] = int_to_ip(key["dst_ip"])
-        value["src_ip"] = int_to_ip(value["src_ip"])
-        value["dest_ip"] = int_to_ip(value["dst_ip"])
+        key["src_ip"] = IPInterface.converte_ip_str(key["src_ip"])
+        key["dst_ip"] = IPInterface.converte_ip_str(key["dst_ip"])
+        value["src_ip"] = IPInterface.converte_ip_str(value["src_ip"])
+        value["dest_ip"] = IPInterface.converte_ip_str(value["dst_ip"])
         value["data"] = ""
-        print(PacketMapKey(**map["key"]))
         packets_maps.append((PacketInformation(**map["value"])))
     write_list_file(packets_maps, "packets_maps.json")
     
     print("Aggregate Map:")
     aggregate_maps = []
-    print(aggregate_map)
     aggregate_map_dict = json.loads(aggregate_map)
     for map in aggregate_map_dict:
         key = map["key"]
         value = map["value"]
-        key["src_ip"] = int_to_ip(key["src_ip"])
-        key["dst_ip"] = int_to_ip(key["dst_ip"])
+        key["src_ip"] = IPInterface.converte_ip_str(key["src_ip"])
+        key["dst_ip"] = IPInterface.converte_ip_str(key["dst_ip"])
         packet_map_key = PacketMapKey(**key)
         packet_aggregate = PacketAggregate(**value)
         packet_aggregate_map = PacketAggregateMap(key=packet_map_key, value=packet_aggregate)
+        if(packet_aggregate_map.value.total_packet_count > MAX_Total_Packet):
+            path = rf"logs/alerts.txt"
+            with open(path, "a") as file:
+                file.write(f"{packet_aggregate_map.key.src_ip} -> {packet_aggregate_map.key.dst_ip} is reaching the max total packet and reach to {packet_aggregate_map.value.total_packet_count} \n")
         aggregate_maps.append(packet_aggregate_map)
     write_list_file(aggregate_maps, "aggregate_map.json")
     
@@ -121,6 +111,7 @@ def read_maps():
     key = global_map_dict[0]["key"]
     value = global_map_dict[0]["value"]
     global_map = GlobalMap(**value)
+    os.system("rm global_map.json")
     write_list_file([global_map], "global_map.json") 
     return aggregate_maps, global_map
 
@@ -128,7 +119,6 @@ def read_maps():
 def main():
     packet_list = read_file_tracing()
     write_list_file(packet_list, "packet_list.json")
-    print(packet_list)
     aggregate_maps, global_map = read_maps()
     visualizeAggregateMap(aggregate_maps)
     global_map.visualize()

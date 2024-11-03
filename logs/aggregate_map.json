@@ -1,0 +1,6876 @@
+{
+    "key": {
+        "src_ip": "85.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 37,
+        "total_packet_length": 27946,
+        "total_ttl": 4040,
+        "avg_ttl": 755.2972972972973
+    }
+}
+{
+    "key": {
+        "src_ip": "27.178.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3867,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "230.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 162,
+        "total_packet_length": 21663,
+        "total_ttl": 6804,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "195.127.109.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "168.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16756,
+        "total_ttl": 2391,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "170.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 42,
+        "total_packet_length": 33409,
+        "total_ttl": 4585,
+        "avg_ttl": 795.452380952381
+    }
+}
+{
+    "key": {
+        "src_ip": "19.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 383,
+        "total_ttl": 246,
+        "avg_ttl": 63.833333333333336
+    }
+}
+{
+    "key": {
+        "src_ip": "108.68.225.90",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "9.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39095,
+        "total_ttl": 5392,
+        "avg_ttl": 766.5686274509804
+    }
+}
+{
+    "key": {
+        "src_ip": "151.78.134.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 420,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "31.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 63,
+        "total_packet_length": 50114,
+        "total_ttl": 6881,
+        "avg_ttl": 795.4603174603175
+    }
+}
+{
+    "key": {
+        "src_ip": "249.139.218.217",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 356,
+        "total_ttl": 344,
+        "avg_ttl": 44.5
+    }
+}
+{
+    "key": {
+        "src_ip": "91.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5295,
+        "total_ttl": 1017,
+        "avg_ttl": 661.875
+    }
+}
+{
+    "key": {
+        "src_ip": "229.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7197,
+        "total_ttl": 2268,
+        "avg_ttl": 133.27777777777777
+    }
+}
+{
+    "key": {
+        "src_ip": "205.155.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "244.173.77.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 150,
+        "total_packet_length": 26880,
+        "total_ttl": 6791,
+        "avg_ttl": 179.2
+    }
+}
+{
+    "key": {
+        "src_ip": "110.177.108.222",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 836,
+        "total_ttl": 630,
+        "avg_ttl": 55.733333333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "201.64.52.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11194,
+        "total_ttl": 1695,
+        "avg_ttl": 746.2666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "109.132.138.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 429,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "12.236.165.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 546,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "38.208.153.61",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 559,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "221.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 237,
+        "total_packet_length": 157723,
+        "total_ttl": 30112,
+        "avg_ttl": 665.4978902953586
+    }
+}
+{
+    "key": {
+        "src_ip": "111.78.152.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 27,
+        "total_packet_length": 6566,
+        "total_ttl": 1053,
+        "avg_ttl": 243.1851851851852
+    }
+}
+{
+    "key": {
+        "src_ip": "28.185.6.14",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 10,
+        "total_packet_length": 1017,
+        "total_ttl": 410,
+        "avg_ttl": 101.7
+    }
+}
+{
+    "key": {
+        "src_ip": "18.44.79.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 505,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "130.114.157.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3181,
+        "total_ttl": 3525,
+        "avg_ttl": 212.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "50.115.128.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "20.192.14.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 588,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "11.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39043,
+        "total_ttl": 5286,
+        "avg_ttl": 780.86
+    }
+}
+{
+    "key": {
+        "src_ip": "169.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22325,
+        "total_ttl": 3161,
+        "avg_ttl": 769.8275862068965
+    }
+}
+{
+    "key": {
+        "src_ip": "23.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 39254,
+        "total_ttl": 5703,
+        "avg_ttl": 726.925925925926
+    }
+}
+{
+    "key": {
+        "src_ip": "195.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 756,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "95.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 71,
+        "total_packet_length": 50551,
+        "total_ttl": 7627,
+        "avg_ttl": 711.9859154929577
+    }
+}
+{
+    "key": {
+        "src_ip": "105.246.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16711,
+        "total_ttl": 2373,
+        "avg_ttl": 795.7619047619048
+    }
+}
+{
+    "key": {
+        "src_ip": "68.165.169.89",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 80,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "10.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22334,
+        "total_ttl": 3110,
+        "avg_ttl": 770.1379310344828
+    }
+}
+{
+    "key": {
+        "src_ip": "214.80.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 784,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "150.156.172.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "173.227.239.47",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 428,
+        "total_ttl": 739,
+        "avg_ttl": 47.55555555555556
+    }
+}
+{
+    "key": {
+        "src_ip": "106.172.252.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "4.121.82.140",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1541,
+        "total_packet_length": 228962,
+        "total_ttl": 77050,
+        "avg_ttl": 148.58014276443868
+    }
+}
+{
+    "key": {
+        "src_ip": "138.169.145.58",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 658,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "9.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 3003,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "224.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5622,
+        "total_ttl": 848,
+        "avg_ttl": 702.75
+    }
+}
+{
+    "key": {
+        "src_ip": "27.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22324,
+        "total_ttl": 3183,
+        "avg_ttl": 769.7931034482758
+    }
+}
+{
+    "key": {
+        "src_ip": "225.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 384,
+        "total_packet_length": 50987,
+        "total_ttl": 16128,
+        "avg_ttl": 132.77864583333334
+    }
+}
+{
+    "key": {
+        "src_ip": "91.131.172.60",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 520,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "3.89.84.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 1672,
+        "total_ttl": 423,
+        "avg_ttl": 185.77777777777777
+    }
+}
+{
+    "key": {
+        "src_ip": "195.201.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11138,
+        "total_ttl": 1782,
+        "avg_ttl": 795.5714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "210.147.108.189",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 598,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "91.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22281,
+        "total_ttl": 2996,
+        "avg_ttl": 795.75
+    }
+}
+{
+    "key": {
+        "src_ip": "0.104.119.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 24,
+        "total_packet_length": 1728,
+        "total_ttl": 2634,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "162.33.237.183",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "34.179.166.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "93.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 6296,
+        "total_ttl": 1145,
+        "avg_ttl": 699.5555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "25.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22324,
+        "total_ttl": 3160,
+        "avg_ttl": 769.7931034482758
+    }
+}
+{
+    "key": {
+        "src_ip": "1.0.0.127",
+        "dst_ip": "1.0.0.127"
+    },
+    "value": {
+        "total_packet_count": 298761,
+        "total_packet_length": 78825075,
+        "total_ttl": 19120704,
+        "avg_ttl": 263.8399088234408
+    }
+}
+{
+    "key": {
+        "src_ip": "41.173.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27851,
+        "total_ttl": 3661,
+        "avg_ttl": 795.7428571428571
+    }
+}
+{
+    "key": {
+        "src_ip": "189.147.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "163.197.136.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 47,
+        "total_packet_length": 76597,
+        "total_ttl": 2968,
+        "avg_ttl": 1629.723404255319
+    }
+}
+{
+    "key": {
+        "src_ip": "17.54.98.76",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 644,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "84.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 40,
+        "total_packet_length": 28082,
+        "total_ttl": 4393,
+        "avg_ttl": 702.05
+    }
+}
+{
+    "key": {
+        "src_ip": "104.246.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1582,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "12.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 43,
+        "total_packet_length": 33474,
+        "total_ttl": 4544,
+        "avg_ttl": 778.4651162790698
+    }
+}
+{
+    "key": {
+        "src_ip": "69.127.143.24",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 518,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "12.132.222.8",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 281,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "3.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16762,
+        "total_ttl": 2325,
+        "avg_ttl": 761.9090909090909
+    }
+}
+{
+    "key": {
+        "src_ip": "152.141.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "122.10.44.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 44,
+        "total_packet_length": 33525,
+        "total_ttl": 4731,
+        "avg_ttl": 761.9318181818181
+    }
+}
+{
+    "key": {
+        "src_ip": "168.253.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 24,
+        "total_packet_length": 16868,
+        "total_ttl": 2712,
+        "avg_ttl": 702.8333333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "11.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2366,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "156.155.36.118",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 84,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "2.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2968,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "208.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39095,
+        "total_ttl": 5464,
+        "avg_ttl": 766.5686274509804
+    }
+}
+{
+    "key": {
+        "src_ip": "194.184.51.61",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "251.204.202.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "200.79.70.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 728,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "14.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2212,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "8.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27850,
+        "total_ttl": 3759,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "214.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2254,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "6.171.222.92",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 3413,
+        "total_ttl": 688,
+        "avg_ttl": 213.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "221.255.146.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 272,
+        "total_ttl": 210,
+        "avg_ttl": 54.4
+    }
+}
+{
+    "key": {
+        "src_ip": "72.167.64.170",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 10,
+        "total_packet_length": 5453,
+        "total_ttl": 2300,
+        "avg_ttl": 545.3
+    }
+}
+{
+    "key": {
+        "src_ip": "238.42.97.210",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 258,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "93.5.107.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 184,
+        "total_packet_length": 125094,
+        "total_ttl": 21517,
+        "avg_ttl": 679.8586956521739
+    }
+}
+{
+    "key": {
+        "src_ip": "24.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22325,
+        "total_ttl": 3161,
+        "avg_ttl": 769.8275862068965
+    }
+}
+{
+    "key": {
+        "src_ip": "8.167.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 742,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "216.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 216,
+        "total_packet_length": 28876,
+        "total_ttl": 9072,
+        "avg_ttl": 133.6851851851852
+    }
+}
+{
+    "key": {
+        "src_ip": "27.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3794,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "190.127.171.111",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 533,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "67.90.21.46",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3157,
+        "total_ttl": 602,
+        "avg_ttl": 225.5
+    }
+}
+{
+    "key": {
+        "src_ip": "97.108.209.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 41272,
+        "total_ttl": 882,
+        "avg_ttl": 2948.0
+    }
+}
+{
+    "key": {
+        "src_ip": "90.109.33.58",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 546,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "131.72.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11136,
+        "total_ttl": 1533,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "18.240.219.203",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "210.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 64,
+        "total_packet_length": 50182,
+        "total_ttl": 6869,
+        "avg_ttl": 784.09375
+    }
+}
+{
+    "key": {
+        "src_ip": "196.91.82.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "112.99.89.159",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3361,
+        "total_ttl": 705,
+        "avg_ttl": 224.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "16.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 38,
+        "total_packet_length": 28007,
+        "total_ttl": 3998,
+        "avg_ttl": 737.0263157894736
+    }
+}
+{
+    "key": {
+        "src_ip": "199.111.78.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5526,
+        "total_ttl": 763,
+        "avg_ttl": 789.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "153.141.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "236.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 162,
+        "total_packet_length": 21667,
+        "total_ttl": 6804,
+        "avg_ttl": 133.7469135802469
+    }
+}
+{
+    "key": {
+        "src_ip": "197.54.31.118",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 244,
+        "total_ttl": 195,
+        "avg_ttl": 48.8
+    }
+}
+{
+    "key": {
+        "src_ip": "104.195.187.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 616,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "78.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22023,
+        "total_ttl": 3157,
+        "avg_ttl": 786.5357142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "234.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 275,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "6.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2954,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "4.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11192,
+        "total_ttl": 1695,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "129.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 273,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "64.160.130.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 527,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "77.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3277,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "232.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 273,
+        "total_packet_length": 36321,
+        "total_ttl": 11466,
+        "avg_ttl": 133.04395604395606
+    }
+}
+{
+    "key": {
+        "src_ip": "93.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 66,
+        "total_packet_length": 50268,
+        "total_ttl": 7200,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "194.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 763,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "18.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 42,
+        "total_packet_length": 33420,
+        "total_ttl": 4438,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "177.42.44.124",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "111.157.36.191",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 3290,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "50.1.140.113",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "13.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1575,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "40.173.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11141,
+        "total_ttl": 1470,
+        "avg_ttl": 795.7857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "79.150.180.135",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 494,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "27.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 106,
+        "total_packet_length": 69296,
+        "total_ttl": 13472,
+        "avg_ttl": 653.7358490566038
+    }
+}
+{
+    "key": {
+        "src_ip": "150.28.96.109",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 368,
+        "total_ttl": 368,
+        "avg_ttl": 46.0
+    }
+}
+{
+    "key": {
+        "src_ip": "209.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 749,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "160.19.199.152",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 51766,
+        "total_ttl": 936,
+        "avg_ttl": 2875.8888888888887
+    }
+}
+{
+    "key": {
+        "src_ip": "135.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 2276,
+        "total_ttl": 574,
+        "avg_ttl": 162.57142857142858
+    }
+}
+{
+    "key": {
+        "src_ip": "13.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 57,
+        "total_packet_length": 44612,
+        "total_ttl": 6007,
+        "avg_ttl": 782.6666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "123.10.44.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11141,
+        "total_ttl": 1512,
+        "avg_ttl": 795.7857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "13.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 45,
+        "total_packet_length": 33577,
+        "total_ttl": 4845,
+        "avg_ttl": 746.1555555555556
+    }
+}
+{
+    "key": {
+        "src_ip": "217.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 55,
+        "total_packet_length": 7325,
+        "total_ttl": 2310,
+        "avg_ttl": 133.1818181818182
+    }
+}
+{
+    "key": {
+        "src_ip": "171.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 81,
+        "total_packet_length": 61456,
+        "total_ttl": 8838,
+        "avg_ttl": 758.716049382716
+    }
+}
+{
+    "key": {
+        "src_ip": "79.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1575,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "88.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 31,
+        "total_packet_length": 22437,
+        "total_ttl": 3332,
+        "avg_ttl": 723.7741935483871
+    }
+}
+{
+    "key": {
+        "src_ip": "155.12.137.8",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 220,
+        "total_ttl": 335,
+        "avg_ttl": 44.0
+    }
+}
+{
+    "key": {
+        "src_ip": "88.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 11345,
+        "total_ttl": 1972,
+        "avg_ttl": 630.2777777777778
+    }
+}
+{
+    "key": {
+        "src_ip": "218.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7221,
+        "total_ttl": 2268,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "50.89.77.41",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 533,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "253.15.104.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 37,
+        "total_packet_length": 27945,
+        "total_ttl": 4181,
+        "avg_ttl": 755.2702702702703
+    }
+}
+{
+    "key": {
+        "src_ip": "66.112.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27841,
+        "total_ttl": 3815,
+        "avg_ttl": 795.4571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "83.226.192.62",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 646,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "62.37.192.193",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "238.20.30.1",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "48.192.11.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5623,
+        "total_ttl": 896,
+        "avg_ttl": 702.875
+    }
+}
+{
+    "key": {
+        "src_ip": "110.220.110.222",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "4.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 38,
+        "total_packet_length": 28008,
+        "total_ttl": 4012,
+        "avg_ttl": 737.0526315789474
+    }
+}
+{
+    "key": {
+        "src_ip": "151.30.64.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "115.191.124.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3181,
+        "total_ttl": 3525,
+        "avg_ttl": 212.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "108.116.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11138,
+        "total_ttl": 1778,
+        "avg_ttl": 795.5714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "106.31.210.205",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3000,
+        "total_ttl": 817,
+        "avg_ttl": 230.76923076923077
+    }
+}
+{
+    "key": {
+        "src_ip": "29.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 273,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "91.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11188,
+        "total_ttl": 1627,
+        "avg_ttl": 745.8666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "231.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7221,
+        "total_ttl": 2268,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "26.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 85,
+        "total_packet_length": 66869,
+        "total_ttl": 9279,
+        "avg_ttl": 786.6941176470589
+    }
+}
+{
+    "key": {
+        "src_ip": "15.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16712,
+        "total_ttl": 2212,
+        "avg_ttl": 795.8095238095239
+    }
+}
+{
+    "key": {
+        "src_ip": "145.91.52.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "187.75.126.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "223.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 284,
+        "total_packet_length": 184390,
+        "total_ttl": 36177,
+        "avg_ttl": 649.2605633802817
+    }
+}
+{
+    "key": {
+        "src_ip": "23.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 316,
+        "total_packet_length": 206873,
+        "total_ttl": 40128,
+        "avg_ttl": 654.6613924050633
+    }
+}
+{
+    "key": {
+        "src_ip": "5.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 43,
+        "total_packet_length": 33472,
+        "total_ttl": 4529,
+        "avg_ttl": 778.4186046511628
+    }
+}
+{
+    "key": {
+        "src_ip": "124.140.223.159",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 585,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "90.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22385,
+        "total_ttl": 3217,
+        "avg_ttl": 746.1666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "66.187.22.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "14.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 49,
+        "total_packet_length": 33786,
+        "total_ttl": 5251,
+        "avg_ttl": 689.5102040816327
+    }
+}
+{
+    "key": {
+        "src_ip": "89.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 58,
+        "total_packet_length": 44666,
+        "total_ttl": 6221,
+        "avg_ttl": 770.1034482758621
+    }
+}
+{
+    "key": {
+        "src_ip": "235.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 110,
+        "total_packet_length": 14754,
+        "total_ttl": 4620,
+        "avg_ttl": 134.12727272727273
+    }
+}
+{
+    "key": {
+        "src_ip": "121.150.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11193,
+        "total_ttl": 1680,
+        "avg_ttl": 746.2
+    }
+}
+{
+    "key": {
+        "src_ip": "17.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3052,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "147.36.156.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 3262,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "227.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2233,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "28.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39042,
+        "total_ttl": 5271,
+        "avg_ttl": 780.84
+    }
+}
+{
+    "key": {
+        "src_ip": "73.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22384,
+        "total_ttl": 3367,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "150.171.0.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "54.154.171.183",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 164,
+        "total_ttl": 125,
+        "avg_ttl": 54.666666666666664
+    }
+}
+{
+    "key": {
+        "src_ip": "105.193.132.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "194.196.202.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "2.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11139,
+        "total_ttl": 1768,
+        "avg_ttl": 795.6428571428571
+    }
+}
+{
+    "key": {
+        "src_ip": "174.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5568,
+        "total_ttl": 770,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "40.162.161.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 6670,
+        "total_ttl": 1247,
+        "avg_ttl": 230.0
+    }
+}
+{
+    "key": {
+        "src_ip": "18.148.247.115",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 1365,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "63.141.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16762,
+        "total_ttl": 2354,
+        "avg_ttl": 761.9090909090909
+    }
+}
+{
+    "key": {
+        "src_ip": "204.128.198.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 205,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "219.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 161,
+        "total_packet_length": 21611,
+        "total_ttl": 6762,
+        "avg_ttl": 134.22981366459626
+    }
+}
+{
+    "key": {
+        "src_ip": "11.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39042,
+        "total_ttl": 5371,
+        "avg_ttl": 780.84
+    }
+}
+{
+    "key": {
+        "src_ip": "86.210.98.50",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 598,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "209.80.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5622,
+        "total_ttl": 904,
+        "avg_ttl": 702.75
+    }
+}
+{
+    "key": {
+        "src_ip": "7.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2961,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "92.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16762,
+        "total_ttl": 2361,
+        "avg_ttl": 761.9090909090909
+    }
+}
+{
+    "key": {
+        "src_ip": "102.241.186.112",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "169.17.70.111",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 4749,
+        "total_ttl": 555,
+        "avg_ttl": 316.6
+    }
+}
+{
+    "key": {
+        "src_ip": "195.64.212.181",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "82.249.194.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 602,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "0.188.87.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 1296,
+        "total_ttl": 2023,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "70.89.246.106",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 292,
+        "total_ttl": 195,
+        "avg_ttl": 58.4
+    }
+}
+{
+    "key": {
+        "src_ip": "10.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 65,
+        "total_packet_length": 50237,
+        "total_ttl": 6876,
+        "avg_ttl": 772.876923076923
+    }
+}
+{
+    "key": {
+        "src_ip": "142.41.71.167",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 5629,
+        "total_ttl": 3332,
+        "avg_ttl": 402.07142857142856
+    }
+}
+{
+    "key": {
+        "src_ip": "149.124.66.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 200,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "192.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1519,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "158.131.108.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 494,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "26.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3802,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "215.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27850,
+        "total_ttl": 3745,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "220.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 55,
+        "total_packet_length": 7281,
+        "total_ttl": 2310,
+        "avg_ttl": 132.38181818181818
+    }
+}
+{
+    "key": {
+        "src_ip": "146.59.111.75",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 41,
+        "total_packet_length": 9875,
+        "total_ttl": 1681,
+        "avg_ttl": 240.85365853658536
+    }
+}
+{
+    "key": {
+        "src_ip": "91.229.115.178",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 585,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "126.169.35.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "200.64.52.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1582,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "193.31.134.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "111.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 116,
+        "total_packet_length": 15761,
+        "total_ttl": 4872,
+        "avg_ttl": 135.8706896551724
+    }
+}
+{
+    "key": {
+        "src_ip": "42.193.141.125",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 210,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "254.169.254.169",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1688,
+        "total_packet_length": 610226,
+        "total_ttl": 216064,
+        "avg_ttl": 361.5082938388626
+    }
+}
+{
+    "key": {
+        "src_ip": "146.134.154.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 574,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "233.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 109,
+        "total_packet_length": 14590,
+        "total_ttl": 4578,
+        "avg_ttl": 133.85321100917432
+    }
+}
+{
+    "key": {
+        "src_ip": "49.192.11.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "33.170.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3361,
+        "total_ttl": 675,
+        "avg_ttl": 224.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "200.201.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11191,
+        "total_ttl": 1910,
+        "avg_ttl": 746.0666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "222.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 326,
+        "total_packet_length": 215695,
+        "total_ttl": 41441,
+        "avg_ttl": 661.6411042944785
+    }
+}
+{
+    "key": {
+        "src_ip": "2.31.196.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "208.24.231.2",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 588,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "193.27.214.95",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1,
+        "total_packet_length": 40,
+        "total_ttl": 239,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "74.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "3.121.82.140",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1782,
+        "total_packet_length": 264626,
+        "total_ttl": 89100,
+        "avg_ttl": 148.49943883277217
+    }
+}
+{
+    "key": {
+        "src_ip": "169.117.22.165",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 372,
+        "total_packet_length": 51784,
+        "total_ttl": 17484,
+        "avg_ttl": 139.20430107526883
+    }
+}
+{
+    "key": {
+        "src_ip": "94.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 321,
+        "total_packet_length": 210532,
+        "total_ttl": 40794,
+        "avg_ttl": 655.8629283489097
+    }
+}
+{
+    "key": {
+        "src_ip": "225.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 742,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "252.15.104.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11141,
+        "total_ttl": 1582,
+        "avg_ttl": 795.7857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "107.116.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22382,
+        "total_ttl": 3812,
+        "avg_ttl": 746.0666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "89.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16704,
+        "total_ttl": 2296,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "64.170.40.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 276,
+        "total_packet_length": 179116,
+        "total_ttl": 34848,
+        "avg_ttl": 648.9710144927536
+    }
+}
+{
+    "key": {
+        "src_ip": "92.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 34,
+        "total_packet_length": 21284,
+        "total_ttl": 4332,
+        "avg_ttl": 626.0
+    }
+}
+{
+    "key": {
+        "src_ip": "113.90.167.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 470,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "218.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 242,
+        "total_packet_length": 158002,
+        "total_ttl": 30766,
+        "avg_ttl": 652.900826446281
+    }
+}
+{
+    "key": {
+        "src_ip": "137.71.105.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "94.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16756,
+        "total_ttl": 2412,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "131.192.235.1",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 533,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "102.138.83.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "169.253.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "226.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1498,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "221.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 165,
+        "total_packet_length": 22083,
+        "total_ttl": 6930,
+        "avg_ttl": 133.83636363636364
+    }
+}
+{
+    "key": {
+        "src_ip": "11.22.54.14",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "1.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3052,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "201.15.64.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 686,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "131.109.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5621,
+        "total_ttl": 1017,
+        "avg_ttl": 702.625
+    }
+}
+{
+    "key": {
+        "src_ip": "112.169.11.122",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 3221,
+        "total_ttl": 688,
+        "avg_ttl": 201.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "0.108.119.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 1008,
+        "total_ttl": 1560,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "111.208.105.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 633,
+        "total_packet_length": 404238,
+        "total_ttl": 80454,
+        "avg_ttl": 638.6066350710901
+    }
+}
+{
+    "key": {
+        "src_ip": "253.246.149.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 637,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "175.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 66,
+        "total_packet_length": 50268,
+        "total_ttl": 7195,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "38.116.22.134",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "69.40.99.79",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3233,
+        "total_ttl": 611,
+        "avg_ttl": 248.69230769230768
+    }
+}
+{
+    "key": {
+        "src_ip": "28.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 52,
+        "total_packet_length": 39132,
+        "total_ttl": 5668,
+        "avg_ttl": 752.5384615384615
+    }
+}
+{
+    "key": {
+        "src_ip": "25.135.231.177",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 442,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "67.112.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39029,
+        "total_ttl": 5458,
+        "avg_ttl": 780.58
+    }
+}
+{
+    "key": {
+        "src_ip": "223.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 161,
+        "total_packet_length": 21627,
+        "total_ttl": 6762,
+        "avg_ttl": 134.32919254658384
+    }
+}
+{
+    "key": {
+        "src_ip": "129.77.209.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 41272,
+        "total_ttl": 882,
+        "avg_ttl": 2948.0
+    }
+}
+{
+    "key": {
+        "src_ip": "235.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 888,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "237.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 166,
+        "total_packet_length": 21907,
+        "total_ttl": 6972,
+        "avg_ttl": 131.96987951807228
+    }
+}
+{
+    "key": {
+        "src_ip": "104.193.132.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "246.233.149.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "159.91.171.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 518,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "26.238.69.203",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3261,
+        "total_ttl": 546,
+        "avg_ttl": 250.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "82.215.111.95",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 499,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "76.174.130.81",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "90.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27893,
+        "total_ttl": 3938,
+        "avg_ttl": 774.8055555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "198.111.78.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11050,
+        "total_ttl": 1519,
+        "avg_ttl": 789.2857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "250.230.116.114",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1,
+        "total_packet_length": 40,
+        "total_ttl": 222,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "46.63.39.117",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "26.178.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39099,
+        "total_ttl": 5471,
+        "avg_ttl": 766.6470588235294
+    }
+}
+{
+    "key": {
+        "src_ip": "213.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11192,
+        "total_ttl": 1620,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "136.71.105.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 52,
+        "total_packet_length": 39163,
+        "total_ttl": 5876,
+        "avg_ttl": 753.1346153846154
+    }
+}
+{
+    "key": {
+        "src_ip": "16.129.63.168",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 41145,
+        "total_packet_length": 10177464,
+        "total_ttl": 5266560,
+        "avg_ttl": 247.3560335399198
+    }
+}
+{
+    "key": {
+        "src_ip": "29.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 160,
+        "total_packet_length": 106687,
+        "total_ttl": 20320,
+        "avg_ttl": 666.79375
+    }
+}
+{
+    "key": {
+        "src_ip": "8.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2954,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "170.50.54.2",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 66546,
+        "total_packet_length": 13247316,
+        "total_ttl": 2953132,
+        "avg_ttl": 199.0700568028131
+    }
+}
+{
+    "key": {
+        "src_ip": "35.134.186.78",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 4,
+        "total_packet_length": 172,
+        "total_ttl": 188,
+        "avg_ttl": 43.0
+    }
+}
+{
+    "key": {
+        "src_ip": "149.62.110.79",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 535,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "228.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 108,
+        "total_packet_length": 14458,
+        "total_ttl": 4536,
+        "avg_ttl": 133.87037037037038
+    }
+}
+{
+    "key": {
+        "src_ip": "238.227.163.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 4885,
+        "total_ttl": 672,
+        "avg_ttl": 305.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "183.225.148.200",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "120.150.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 784,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "30.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39028,
+        "total_ttl": 5464,
+        "avg_ttl": 780.56
+    }
+}
+{
+    "key": {
+        "src_ip": "25.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 72,
+        "total_packet_length": 55805,
+        "total_ttl": 7610,
+        "avg_ttl": 775.0694444444445
+    }
+}
+{
+    "key": {
+        "src_ip": "24.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27903,
+        "total_ttl": 3795,
+        "avg_ttl": 775.0833333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "34.152.124.49",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 225,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "9.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "233.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 25,
+        "total_packet_length": 18346,
+        "total_ttl": 3160,
+        "avg_ttl": 733.84
+    }
+}
+{
+    "key": {
+        "src_ip": "211.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 23,
+        "total_packet_length": 16814,
+        "total_ttl": 2475,
+        "avg_ttl": 731.0434782608696
+    }
+}
+{
+    "key": {
+        "src_ip": "85.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 37,
+        "total_packet_length": 27946,
+        "total_ttl": 4040,
+        "avg_ttl": 755.2972972972973
+    }
+}
+{
+    "key": {
+        "src_ip": "27.178.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3867,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "230.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 162,
+        "total_packet_length": 21663,
+        "total_ttl": 6804,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "195.127.109.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "168.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16756,
+        "total_ttl": 2391,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "170.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 42,
+        "total_packet_length": 33409,
+        "total_ttl": 4585,
+        "avg_ttl": 795.452380952381
+    }
+}
+{
+    "key": {
+        "src_ip": "19.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 383,
+        "total_ttl": 246,
+        "avg_ttl": 63.833333333333336
+    }
+}
+{
+    "key": {
+        "src_ip": "108.68.225.90",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "9.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39095,
+        "total_ttl": 5392,
+        "avg_ttl": 766.5686274509804
+    }
+}
+{
+    "key": {
+        "src_ip": "151.78.134.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 420,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "31.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 63,
+        "total_packet_length": 50114,
+        "total_ttl": 6881,
+        "avg_ttl": 795.4603174603175
+    }
+}
+{
+    "key": {
+        "src_ip": "249.139.218.217",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 356,
+        "total_ttl": 344,
+        "avg_ttl": 44.5
+    }
+}
+{
+    "key": {
+        "src_ip": "91.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5295,
+        "total_ttl": 1017,
+        "avg_ttl": 661.875
+    }
+}
+{
+    "key": {
+        "src_ip": "229.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7197,
+        "total_ttl": 2268,
+        "avg_ttl": 133.27777777777777
+    }
+}
+{
+    "key": {
+        "src_ip": "205.155.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "244.173.77.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 150,
+        "total_packet_length": 26880,
+        "total_ttl": 6791,
+        "avg_ttl": 179.2
+    }
+}
+{
+    "key": {
+        "src_ip": "110.177.108.222",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 836,
+        "total_ttl": 630,
+        "avg_ttl": 55.733333333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "201.64.52.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11194,
+        "total_ttl": 1695,
+        "avg_ttl": 746.2666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "109.132.138.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 429,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "12.236.165.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 546,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "38.208.153.61",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 559,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "221.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 237,
+        "total_packet_length": 157723,
+        "total_ttl": 30112,
+        "avg_ttl": 665.4978902953586
+    }
+}
+{
+    "key": {
+        "src_ip": "111.78.152.39",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 27,
+        "total_packet_length": 6566,
+        "total_ttl": 1053,
+        "avg_ttl": 243.1851851851852
+    }
+}
+{
+    "key": {
+        "src_ip": "28.185.6.14",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 10,
+        "total_packet_length": 1017,
+        "total_ttl": 410,
+        "avg_ttl": 101.7
+    }
+}
+{
+    "key": {
+        "src_ip": "18.44.79.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 505,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "130.114.157.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3181,
+        "total_ttl": 3525,
+        "avg_ttl": 212.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "50.115.128.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "20.192.14.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 588,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "11.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 57,
+        "total_packet_length": 44613,
+        "total_ttl": 6028,
+        "avg_ttl": 782.6842105263158
+    }
+}
+{
+    "key": {
+        "src_ip": "169.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22325,
+        "total_ttl": 3161,
+        "avg_ttl": 769.8275862068965
+    }
+}
+{
+    "key": {
+        "src_ip": "23.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 39254,
+        "total_ttl": 5703,
+        "avg_ttl": 726.925925925926
+    }
+}
+{
+    "key": {
+        "src_ip": "195.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 756,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "95.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 71,
+        "total_packet_length": 50551,
+        "total_ttl": 7627,
+        "avg_ttl": 711.9859154929577
+    }
+}
+{
+    "key": {
+        "src_ip": "105.246.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16711,
+        "total_ttl": 2373,
+        "avg_ttl": 795.7619047619048
+    }
+}
+{
+    "key": {
+        "src_ip": "68.165.169.89",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 80,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "10.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27904,
+        "total_ttl": 3859,
+        "avg_ttl": 775.1111111111111
+    }
+}
+{
+    "key": {
+        "src_ip": "211.128.27.112",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "214.80.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 784,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "150.156.172.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "173.227.239.47",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 428,
+        "total_ttl": 739,
+        "avg_ttl": 47.55555555555556
+    }
+}
+{
+    "key": {
+        "src_ip": "106.172.252.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "4.121.82.140",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1541,
+        "total_packet_length": 228962,
+        "total_ttl": 77050,
+        "avg_ttl": 148.58014276443868
+    }
+}
+{
+    "key": {
+        "src_ip": "138.169.145.58",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 658,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "9.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 3003,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "224.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5622,
+        "total_ttl": 848,
+        "avg_ttl": 702.75
+    }
+}
+{
+    "key": {
+        "src_ip": "27.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22324,
+        "total_ttl": 3183,
+        "avg_ttl": 769.7931034482758
+    }
+}
+{
+    "key": {
+        "src_ip": "225.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 384,
+        "total_packet_length": 50987,
+        "total_ttl": 16128,
+        "avg_ttl": 132.77864583333334
+    }
+}
+{
+    "key": {
+        "src_ip": "91.131.172.60",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 520,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "3.89.84.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 1672,
+        "total_ttl": 423,
+        "avg_ttl": 185.77777777777777
+    }
+}
+{
+    "key": {
+        "src_ip": "195.201.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11138,
+        "total_ttl": 1782,
+        "avg_ttl": 795.5714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "210.147.108.189",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 598,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "91.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22281,
+        "total_ttl": 2996,
+        "avg_ttl": 795.75
+    }
+}
+{
+    "key": {
+        "src_ip": "0.104.119.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 24,
+        "total_packet_length": 1728,
+        "total_ttl": 2634,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "162.33.237.183",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "34.179.166.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "93.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 9,
+        "total_packet_length": 6296,
+        "total_ttl": 1145,
+        "avg_ttl": 699.5555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "25.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22324,
+        "total_ttl": 3160,
+        "avg_ttl": 769.7931034482758
+    }
+}
+{
+    "key": {
+        "src_ip": "1.0.0.127",
+        "dst_ip": "1.0.0.127"
+    },
+    "value": {
+        "total_packet_count": 301749,
+        "total_packet_length": 79426525,
+        "total_ttl": 19311936,
+        "avg_ttl": 263.22050777301666
+    }
+}
+{
+    "key": {
+        "src_ip": "41.173.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27851,
+        "total_ttl": 3661,
+        "avg_ttl": 795.7428571428571
+    }
+}
+{
+    "key": {
+        "src_ip": "189.147.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "163.197.136.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 47,
+        "total_packet_length": 76597,
+        "total_ttl": 2968,
+        "avg_ttl": 1629.723404255319
+    }
+}
+{
+    "key": {
+        "src_ip": "17.54.98.76",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 644,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "84.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 40,
+        "total_packet_length": 28082,
+        "total_ttl": 4393,
+        "avg_ttl": 702.05
+    }
+}
+{
+    "key": {
+        "src_ip": "104.246.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1582,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "12.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 43,
+        "total_packet_length": 33474,
+        "total_ttl": 4544,
+        "avg_ttl": 778.4651162790698
+    }
+}
+{
+    "key": {
+        "src_ip": "69.127.143.24",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 518,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "12.132.222.8",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 281,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "3.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3060,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "152.141.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "122.10.44.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 44,
+        "total_packet_length": 33525,
+        "total_ttl": 4731,
+        "avg_ttl": 761.9318181818181
+    }
+}
+{
+    "key": {
+        "src_ip": "168.253.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 24,
+        "total_packet_length": 16868,
+        "total_ttl": 2712,
+        "avg_ttl": 702.8333333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "11.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2366,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "156.155.36.118",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 84,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "2.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2968,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "208.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39095,
+        "total_ttl": 5464,
+        "avg_ttl": 766.5686274509804
+    }
+}
+{
+    "key": {
+        "src_ip": "194.184.51.61",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "251.204.202.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "200.79.70.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 728,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "14.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2212,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "8.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27850,
+        "total_ttl": 3759,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "214.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2254,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "6.171.222.92",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 3413,
+        "total_ttl": 688,
+        "avg_ttl": 213.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "221.255.146.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 272,
+        "total_ttl": 210,
+        "avg_ttl": 54.4
+    }
+}
+{
+    "key": {
+        "src_ip": "72.167.64.170",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 5585,
+        "total_ttl": 2990,
+        "avg_ttl": 429.61538461538464
+    }
+}
+{
+    "key": {
+        "src_ip": "238.42.97.210",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 258,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "93.5.107.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 184,
+        "total_packet_length": 125094,
+        "total_ttl": 21517,
+        "avg_ttl": 679.8586956521739
+    }
+}
+{
+    "key": {
+        "src_ip": "24.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22325,
+        "total_ttl": 3161,
+        "avg_ttl": 769.8275862068965
+    }
+}
+{
+    "key": {
+        "src_ip": "8.167.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 742,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "216.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 216,
+        "total_packet_length": 28876,
+        "total_ttl": 9072,
+        "avg_ttl": 133.6851851851852
+    }
+}
+{
+    "key": {
+        "src_ip": "27.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3794,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "190.127.171.111",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 533,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "67.90.21.46",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3157,
+        "total_ttl": 602,
+        "avg_ttl": 225.5
+    }
+}
+{
+    "key": {
+        "src_ip": "97.108.209.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 41272,
+        "total_ttl": 882,
+        "avg_ttl": 2948.0
+    }
+}
+{
+    "key": {
+        "src_ip": "90.109.33.58",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 546,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "131.72.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11136,
+        "total_ttl": 1533,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "18.240.219.203",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 630,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "210.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 64,
+        "total_packet_length": 50182,
+        "total_ttl": 6869,
+        "avg_ttl": 784.09375
+    }
+}
+{
+    "key": {
+        "src_ip": "196.91.82.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "112.99.89.159",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3361,
+        "total_ttl": 705,
+        "avg_ttl": 224.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "16.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 38,
+        "total_packet_length": 28007,
+        "total_ttl": 3998,
+        "avg_ttl": 737.0263157894736
+    }
+}
+{
+    "key": {
+        "src_ip": "199.111.78.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5526,
+        "total_ttl": 763,
+        "avg_ttl": 789.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "153.141.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "236.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 162,
+        "total_packet_length": 21667,
+        "total_ttl": 6804,
+        "avg_ttl": 133.7469135802469
+    }
+}
+{
+    "key": {
+        "src_ip": "197.54.31.118",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 244,
+        "total_ttl": 195,
+        "avg_ttl": 48.8
+    }
+}
+{
+    "key": {
+        "src_ip": "104.195.187.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 616,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "78.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22023,
+        "total_ttl": 3157,
+        "avg_ttl": 786.5357142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "234.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 275,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "6.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2954,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "4.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11192,
+        "total_ttl": 1695,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "129.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 273,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "64.160.130.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 527,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "77.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3277,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "232.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 273,
+        "total_packet_length": 36321,
+        "total_ttl": 11466,
+        "avg_ttl": 133.04395604395606
+    }
+}
+{
+    "key": {
+        "src_ip": "93.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 66,
+        "total_packet_length": 50268,
+        "total_ttl": 7200,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "194.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 763,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "18.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 42,
+        "total_packet_length": 33420,
+        "total_ttl": 4438,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "177.42.44.124",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "111.157.36.191",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 3290,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "50.1.140.113",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "13.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1575,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "40.173.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11141,
+        "total_ttl": 1470,
+        "avg_ttl": 795.7857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "79.150.180.135",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 494,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "27.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 106,
+        "total_packet_length": 69296,
+        "total_ttl": 13472,
+        "avg_ttl": 653.7358490566038
+    }
+}
+{
+    "key": {
+        "src_ip": "150.28.96.109",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 368,
+        "total_ttl": 368,
+        "avg_ttl": 46.0
+    }
+}
+{
+    "key": {
+        "src_ip": "209.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 749,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "160.19.199.152",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 51766,
+        "total_ttl": 936,
+        "avg_ttl": 2875.8888888888887
+    }
+}
+{
+    "key": {
+        "src_ip": "135.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 2276,
+        "total_ttl": 574,
+        "avg_ttl": 162.57142857142858
+    }
+}
+{
+    "key": {
+        "src_ip": "13.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 57,
+        "total_packet_length": 44612,
+        "total_ttl": 6007,
+        "avg_ttl": 782.6666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "123.10.44.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11141,
+        "total_ttl": 1512,
+        "avg_ttl": 795.7857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "13.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 45,
+        "total_packet_length": 33577,
+        "total_ttl": 4845,
+        "avg_ttl": 746.1555555555556
+    }
+}
+{
+    "key": {
+        "src_ip": "217.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 55,
+        "total_packet_length": 7325,
+        "total_ttl": 2310,
+        "avg_ttl": 133.1818181818182
+    }
+}
+{
+    "key": {
+        "src_ip": "171.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 81,
+        "total_packet_length": 61456,
+        "total_ttl": 8838,
+        "avg_ttl": 758.716049382716
+    }
+}
+{
+    "key": {
+        "src_ip": "79.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1575,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "88.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 31,
+        "total_packet_length": 22437,
+        "total_ttl": 3332,
+        "avg_ttl": 723.7741935483871
+    }
+}
+{
+    "key": {
+        "src_ip": "155.12.137.8",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 220,
+        "total_ttl": 335,
+        "avg_ttl": 44.0
+    }
+}
+{
+    "key": {
+        "src_ip": "88.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 11345,
+        "total_ttl": 1972,
+        "avg_ttl": 630.2777777777778
+    }
+}
+{
+    "key": {
+        "src_ip": "218.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7221,
+        "total_ttl": 2268,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "50.89.77.41",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 533,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "253.15.104.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 37,
+        "total_packet_length": 27945,
+        "total_ttl": 4181,
+        "avg_ttl": 755.2702702702703
+    }
+}
+{
+    "key": {
+        "src_ip": "66.112.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27841,
+        "total_ttl": 3815,
+        "avg_ttl": 795.4571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "83.226.192.62",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 646,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "62.37.192.193",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "210.80.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "34.197.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11051,
+        "total_ttl": 1519,
+        "avg_ttl": 789.3571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "238.20.30.1",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "48.192.11.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5623,
+        "total_ttl": 896,
+        "avg_ttl": 702.875
+    }
+}
+{
+    "key": {
+        "src_ip": "110.220.110.222",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "4.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 38,
+        "total_packet_length": 28008,
+        "total_ttl": 4012,
+        "avg_ttl": 737.0526315789474
+    }
+}
+{
+    "key": {
+        "src_ip": "151.30.64.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "115.191.124.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3181,
+        "total_ttl": 3525,
+        "avg_ttl": 212.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "108.116.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11138,
+        "total_ttl": 1778,
+        "avg_ttl": 795.5714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "106.31.210.205",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3000,
+        "total_ttl": 817,
+        "avg_ttl": 230.76923076923077
+    }
+}
+{
+    "key": {
+        "src_ip": "29.197.62.64",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 273,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "91.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11188,
+        "total_ttl": 1627,
+        "avg_ttl": 745.8666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "231.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 54,
+        "total_packet_length": 7221,
+        "total_ttl": 2268,
+        "avg_ttl": 133.72222222222223
+    }
+}
+{
+    "key": {
+        "src_ip": "26.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 85,
+        "total_packet_length": 66869,
+        "total_ttl": 9279,
+        "avg_ttl": 786.6941176470589
+    }
+}
+{
+    "key": {
+        "src_ip": "15.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16712,
+        "total_ttl": 2212,
+        "avg_ttl": 795.8095238095239
+    }
+}
+{
+    "key": {
+        "src_ip": "145.91.52.110",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "187.75.126.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "223.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 292,
+        "total_packet_length": 189652,
+        "total_ttl": 37196,
+        "avg_ttl": 649.4931506849315
+    }
+}
+{
+    "key": {
+        "src_ip": "23.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 316,
+        "total_packet_length": 206873,
+        "total_ttl": 40128,
+        "avg_ttl": 654.6613924050633
+    }
+}
+{
+    "key": {
+        "src_ip": "5.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 43,
+        "total_packet_length": 33472,
+        "total_ttl": 4529,
+        "avg_ttl": 778.4186046511628
+    }
+}
+{
+    "key": {
+        "src_ip": "124.140.223.159",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 585,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "90.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22385,
+        "total_ttl": 3217,
+        "avg_ttl": 746.1666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "66.187.22.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "14.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 49,
+        "total_packet_length": 33786,
+        "total_ttl": 5251,
+        "avg_ttl": 689.5102040816327
+    }
+}
+{
+    "key": {
+        "src_ip": "89.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 58,
+        "total_packet_length": 44666,
+        "total_ttl": 6221,
+        "avg_ttl": 770.1034482758621
+    }
+}
+{
+    "key": {
+        "src_ip": "235.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 110,
+        "total_packet_length": 14754,
+        "total_ttl": 4620,
+        "avg_ttl": 134.12727272727273
+    }
+}
+{
+    "key": {
+        "src_ip": "121.150.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11193,
+        "total_ttl": 1680,
+        "avg_ttl": 746.2
+    }
+}
+{
+    "key": {
+        "src_ip": "17.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3052,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "147.36.156.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 3262,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "227.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16710,
+        "total_ttl": 2233,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "28.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39042,
+        "total_ttl": 5271,
+        "avg_ttl": 780.84
+    }
+}
+{
+    "key": {
+        "src_ip": "73.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22384,
+        "total_ttl": 3367,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "150.171.0.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "54.154.171.183",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 164,
+        "total_ttl": 125,
+        "avg_ttl": 54.666666666666664
+    }
+}
+{
+    "key": {
+        "src_ip": "105.193.132.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "194.196.202.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "2.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11139,
+        "total_ttl": 1768,
+        "avg_ttl": 795.6428571428571
+    }
+}
+{
+    "key": {
+        "src_ip": "174.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5568,
+        "total_ttl": 770,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "40.162.161.45",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 6670,
+        "total_ttl": 1247,
+        "avg_ttl": 230.0
+    }
+}
+{
+    "key": {
+        "src_ip": "18.148.247.115",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 1365,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "63.141.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22384,
+        "total_ttl": 3210,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "204.128.198.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 205,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "219.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 161,
+        "total_packet_length": 21611,
+        "total_ttl": 6762,
+        "avg_ttl": 134.22981366459626
+    }
+}
+{
+    "key": {
+        "src_ip": "11.179.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 57,
+        "total_packet_length": 44612,
+        "total_ttl": 6127,
+        "avg_ttl": 782.6666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "86.210.98.50",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 598,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "209.80.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5622,
+        "total_ttl": 904,
+        "avg_ttl": 702.75
+    }
+}
+{
+    "key": {
+        "src_ip": "7.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27850,
+        "total_ttl": 3696,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "92.16.208.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16762,
+        "total_ttl": 2361,
+        "avg_ttl": 761.9090909090909
+    }
+}
+{
+    "key": {
+        "src_ip": "102.241.186.112",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "169.17.70.111",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 4749,
+        "total_ttl": 555,
+        "avg_ttl": 316.6
+    }
+}
+{
+    "key": {
+        "src_ip": "195.64.212.181",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "82.249.194.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 602,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "0.188.87.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 18,
+        "total_packet_length": 1296,
+        "total_ttl": 2023,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "70.89.246.106",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 292,
+        "total_ttl": 195,
+        "avg_ttl": 58.4
+    }
+}
+{
+    "key": {
+        "src_ip": "10.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 65,
+        "total_packet_length": 50237,
+        "total_ttl": 6876,
+        "avg_ttl": 772.876923076923
+    }
+}
+{
+    "key": {
+        "src_ip": "142.41.71.167",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 5629,
+        "total_ttl": 3332,
+        "avg_ttl": 402.07142857142856
+    }
+}
+{
+    "key": {
+        "src_ip": "149.124.66.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 200,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "192.98.74.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1519,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "158.131.108.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 494,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "26.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27902,
+        "total_ttl": 3802,
+        "avg_ttl": 775.0555555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "215.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 35,
+        "total_packet_length": 27850,
+        "total_ttl": 3745,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "220.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 55,
+        "total_packet_length": 7281,
+        "total_ttl": 2310,
+        "avg_ttl": 132.38181818181818
+    }
+}
+{
+    "key": {
+        "src_ip": "146.59.111.75",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 41,
+        "total_packet_length": 9875,
+        "total_ttl": 1681,
+        "avg_ttl": 240.85365853658536
+    }
+}
+{
+    "key": {
+        "src_ip": "91.229.115.178",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 585,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "126.169.35.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 559,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "200.64.52.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1582,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "193.31.134.121",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 546,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "111.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 116,
+        "total_packet_length": 15761,
+        "total_ttl": 4872,
+        "avg_ttl": 135.8706896551724
+    }
+}
+{
+    "key": {
+        "src_ip": "42.193.141.125",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 210,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "254.169.254.169",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1704,
+        "total_packet_length": 615770,
+        "total_ttl": 218112,
+        "avg_ttl": 361.36737089201876
+    }
+}
+{
+    "key": {
+        "src_ip": "146.134.154.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3145,
+        "total_ttl": 574,
+        "avg_ttl": 224.64285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "233.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 109,
+        "total_packet_length": 14590,
+        "total_ttl": 4578,
+        "avg_ttl": 133.85321100917432
+    }
+}
+{
+    "key": {
+        "src_ip": "49.192.11.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1568,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "33.170.20.65",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 3361,
+        "total_ttl": 675,
+        "avg_ttl": 224.06666666666666
+    }
+}
+{
+    "key": {
+        "src_ip": "200.201.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11191,
+        "total_ttl": 1910,
+        "avg_ttl": 746.0666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "222.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 334,
+        "total_packet_length": 220957,
+        "total_ttl": 42458,
+        "avg_ttl": 661.5479041916168
+    }
+}
+{
+    "key": {
+        "src_ip": "2.31.196.211",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 6,
+        "total_packet_length": 360,
+        "total_ttl": 252,
+        "avg_ttl": 60.0
+    }
+}
+{
+    "key": {
+        "src_ip": "208.24.231.2",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 588,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "193.27.214.95",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1,
+        "total_packet_length": 40,
+        "total_ttl": 239,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "74.239.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "3.121.82.140",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1821,
+        "total_packet_length": 270308,
+        "total_ttl": 91050,
+        "avg_ttl": 148.43931905546404
+    }
+}
+{
+    "key": {
+        "src_ip": "169.117.22.165",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 372,
+        "total_packet_length": 51784,
+        "total_ttl": 17484,
+        "avg_ttl": 139.20430107526883
+    }
+}
+{
+    "key": {
+        "src_ip": "94.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 321,
+        "total_packet_length": 210532,
+        "total_ttl": 40794,
+        "avg_ttl": 655.8629283489097
+    }
+}
+{
+    "key": {
+        "src_ip": "225.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 742,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "252.15.104.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16711,
+        "total_ttl": 2373,
+        "avg_ttl": 795.7619047619048
+    }
+}
+{
+    "key": {
+        "src_ip": "107.116.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 30,
+        "total_packet_length": 22382,
+        "total_ttl": 3812,
+        "avg_ttl": 746.0666666666667
+    }
+}
+{
+    "key": {
+        "src_ip": "89.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 21,
+        "total_packet_length": 16704,
+        "total_ttl": 2296,
+        "avg_ttl": 795.4285714285714
+    }
+}
+{
+    "key": {
+        "src_ip": "64.170.40.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 276,
+        "total_packet_length": 179116,
+        "total_ttl": 34848,
+        "avg_ttl": 648.9710144927536
+    }
+}
+{
+    "key": {
+        "src_ip": "92.186.236.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 34,
+        "total_packet_length": 21284,
+        "total_ttl": 4332,
+        "avg_ttl": 626.0
+    }
+}
+{
+    "key": {
+        "src_ip": "113.90.167.103",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 2,
+        "total_packet_length": 80,
+        "total_ttl": 470,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "218.106.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 242,
+        "total_packet_length": 158002,
+        "total_ttl": 30766,
+        "avg_ttl": 652.900826446281
+    }
+}
+{
+    "key": {
+        "src_ip": "137.71.105.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 791,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "94.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 22,
+        "total_packet_length": 16756,
+        "total_ttl": 2412,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "131.192.235.1",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 533,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "102.138.83.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 507,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "169.253.116.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "226.162.46.104",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11142,
+        "total_ttl": 1498,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "221.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 165,
+        "total_packet_length": 22083,
+        "total_ttl": 6930,
+        "avg_ttl": 133.83636363636364
+    }
+}
+{
+    "key": {
+        "src_ip": "11.22.54.14",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "1.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 29,
+        "total_packet_length": 22332,
+        "total_ttl": 3052,
+        "avg_ttl": 770.0689655172414
+    }
+}
+{
+    "key": {
+        "src_ip": "201.15.64.36",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 686,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "131.109.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 8,
+        "total_packet_length": 5621,
+        "total_ttl": 1017,
+        "avg_ttl": 702.625
+    }
+}
+{
+    "key": {
+        "src_ip": "112.169.11.122",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 3221,
+        "total_ttl": 688,
+        "avg_ttl": 201.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "0.108.119.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 1080,
+        "total_ttl": 1671,
+        "avg_ttl": 72.0
+    }
+}
+{
+    "key": {
+        "src_ip": "111.208.105.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 633,
+        "total_packet_length": 404238,
+        "total_ttl": 80454,
+        "avg_ttl": 638.6066350710901
+    }
+}
+{
+    "key": {
+        "src_ip": "253.246.149.188",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3105,
+        "total_ttl": 637,
+        "avg_ttl": 238.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "175.117.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 66,
+        "total_packet_length": 50268,
+        "total_ttl": 7195,
+        "avg_ttl": 761.6363636363636
+    }
+}
+{
+    "key": {
+        "src_ip": "38.116.22.134",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 574,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "69.40.99.79",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3233,
+        "total_ttl": 611,
+        "avg_ttl": 248.69230769230768
+    }
+}
+{
+    "key": {
+        "src_ip": "28.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 52,
+        "total_packet_length": 39132,
+        "total_ttl": 5668,
+        "avg_ttl": 752.5384615384615
+    }
+}
+{
+    "key": {
+        "src_ip": "25.135.231.177",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 442,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "67.112.168.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 50,
+        "total_packet_length": 39029,
+        "total_ttl": 5458,
+        "avg_ttl": 780.58
+    }
+}
+{
+    "key": {
+        "src_ip": "223.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 161,
+        "total_packet_length": 21627,
+        "total_ttl": 6762,
+        "avg_ttl": 134.32919254658384
+    }
+}
+{
+    "key": {
+        "src_ip": "129.77.209.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 41272,
+        "total_ttl": 882,
+        "avg_ttl": 2948.0
+    }
+}
+{
+    "key": {
+        "src_ip": "235.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5570,
+        "total_ttl": 888,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "237.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 166,
+        "total_packet_length": 21907,
+        "total_ttl": 6972,
+        "avg_ttl": 131.96987951807228
+    }
+}
+{
+    "key": {
+        "src_ip": "104.193.132.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 791,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "246.233.149.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "159.91.171.223",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 518,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "26.238.69.203",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3261,
+        "total_ttl": 546,
+        "avg_ttl": 250.84615384615384
+    }
+}
+{
+    "key": {
+        "src_ip": "82.215.111.95",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 499,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "76.174.130.81",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 672,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "90.65.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27893,
+        "total_ttl": 3938,
+        "avg_ttl": 774.8055555555555
+    }
+}
+{
+    "key": {
+        "src_ip": "198.111.78.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11050,
+        "total_ttl": 1519,
+        "avg_ttl": 789.2857142857143
+    }
+}
+{
+    "key": {
+        "src_ip": "250.230.116.114",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 1,
+        "total_packet_length": 40,
+        "total_ttl": 222,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "46.63.39.117",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 3309,
+        "total_ttl": 602,
+        "avg_ttl": 236.35714285714286
+    }
+}
+{
+    "key": {
+        "src_ip": "26.178.89.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 51,
+        "total_packet_length": 39099,
+        "total_ttl": 5471,
+        "avg_ttl": 766.6470588235294
+    }
+}
+{
+    "key": {
+        "src_ip": "213.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 15,
+        "total_packet_length": 11192,
+        "total_ttl": 1620,
+        "avg_ttl": 746.1333333333333
+    }
+}
+{
+    "key": {
+        "src_ip": "136.71.105.51",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 52,
+        "total_packet_length": 39163,
+        "total_ttl": 5876,
+        "avg_ttl": 753.1346153846154
+    }
+}
+{
+    "key": {
+        "src_ip": "16.129.63.168",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 41503,
+        "total_packet_length": 10266265,
+        "total_ttl": 5312384,
+        "avg_ttl": 247.36199792786064
+    }
+}
+{
+    "key": {
+        "src_ip": "29.65.69.13",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 160,
+        "total_packet_length": 106687,
+        "total_ttl": 20320,
+        "avg_ttl": 666.79375
+    }
+}
+{
+    "key": {
+        "src_ip": "8.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 28,
+        "total_packet_length": 22280,
+        "total_ttl": 2954,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "170.50.54.2",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 67969,
+        "total_packet_length": 13498580,
+        "total_ttl": 3012898,
+        "avg_ttl": 198.5990672218217
+    }
+}
+{
+    "key": {
+        "src_ip": "35.134.186.78",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 4,
+        "total_packet_length": 172,
+        "total_ttl": 188,
+        "avg_ttl": 43.0
+    }
+}
+{
+    "key": {
+        "src_ip": "149.62.110.79",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 3,
+        "total_packet_length": 120,
+        "total_ttl": 535,
+        "avg_ttl": 40.0
+    }
+}
+{
+    "key": {
+        "src_ip": "228.0.92.218",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 108,
+        "total_packet_length": 14458,
+        "total_ttl": 4536,
+        "avg_ttl": 133.87037037037038
+    }
+}
+{
+    "key": {
+        "src_ip": "238.227.163.221",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 16,
+        "total_packet_length": 4885,
+        "total_ttl": 672,
+        "avg_ttl": 305.3125
+    }
+}
+{
+    "key": {
+        "src_ip": "183.225.148.200",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 13,
+        "total_packet_length": 3257,
+        "total_ttl": 572,
+        "avg_ttl": 250.53846153846155
+    }
+}
+{
+    "key": {
+        "src_ip": "120.150.79.40",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 7,
+        "total_packet_length": 5571,
+        "total_ttl": 784,
+        "avg_ttl": 795.8571428571429
+    }
+}
+{
+    "key": {
+        "src_ip": "30.73.42.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 57,
+        "total_packet_length": 44596,
+        "total_ttl": 6220,
+        "avg_ttl": 782.3859649122807
+    }
+}
+{
+    "key": {
+        "src_ip": "25.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 72,
+        "total_packet_length": 55805,
+        "total_ttl": 7610,
+        "avg_ttl": 775.0694444444445
+    }
+}
+{
+    "key": {
+        "src_ip": "24.173.189.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 36,
+        "total_packet_length": 27903,
+        "total_ttl": 3795,
+        "avg_ttl": 775.0833333333334
+    }
+}
+{
+    "key": {
+        "src_ip": "34.152.124.49",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 5,
+        "total_packet_length": 268,
+        "total_ttl": 225,
+        "avg_ttl": 53.6
+    }
+}
+{
+    "key": {
+        "src_ip": "9.73.50.20",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 14,
+        "total_packet_length": 11140,
+        "total_ttl": 1582,
+        "avg_ttl": 795.7142857142857
+    }
+}
+{
+    "key": {
+        "src_ip": "233.17.178.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 25,
+        "total_packet_length": 18346,
+        "total_ttl": 3160,
+        "avg_ttl": 733.84
+    }
+}
+{
+    "key": {
+        "src_ip": "211.143.182.52",
+        "dst_ip": "5.0.2.10"
+    },
+    "value": {
+        "total_packet_count": 23,
+        "total_packet_length": 16814,
+        "total_ttl": 2475,
+        "avg_ttl": 731.0434782608696
+    }
+}
