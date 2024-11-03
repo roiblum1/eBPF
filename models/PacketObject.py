@@ -14,7 +14,7 @@ class PacketInformation(BaseModel):
     def convert_ip_to_string(cls, v):
         return bytes_to_ip(v)
 
-def bytes_to_ip(ip_in_bytes: bytes) -> str:
+def bytes_to_ip(ip_in_bytes):
     """
     Converts a bytes object representing an IP address into a string.
 
@@ -23,5 +23,7 @@ def bytes_to_ip(ip_in_bytes: bytes) -> str:
     :return: A string representation of the IP address.
     :rtype: str
     """
+    if(type(ip_in_bytes) == str):
+        return ip_in_bytes
     ip_addr = socket.inet_ntoa(ip_in_bytes)
     return ip_addr
