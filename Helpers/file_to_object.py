@@ -18,5 +18,3 @@ class FileToObject():
             for map in jsonlines.Reader(file):
                 global_map = GlobalMap(**map)
             return global_map
-print(FileToObject.parse_aggregate_map("logs/aggregate_map.json"))
-FileToObject.parse_global_map("logs/global_map.json").visualize()
