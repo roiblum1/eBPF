@@ -1,6 +1,1 @@
-{
-    "total_packet_count": 618604,
-    "total_packet_length": 147820530,
-    "total_ttl": 41486200,
-    "avg_ttl": 238.95825115906138
-}
+{"total_packet_count": 713424, "total_packet_length": 166712844, "total_ttl": 47569568, "avg_ttl": 233.67989302294288}

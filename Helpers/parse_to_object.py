@@ -22,7 +22,6 @@ class ParseToObject():
             packet_object = PacketInformation(**packet_information_dict)
             return packet_object
         else:
-            print(f"Could not parse packet: {line}")
             return None
 
     def parse_packet_map(packet_map: dict) -> PacketInformation:

@@ -1,13 +1,15 @@
 import json
 from models.AggregateMapObject import PacketAggregateMap
+import jsonlines
+
 class FileInterface():
     def write_list_file(object_list: list, file_name: str) -> None:
         try:
             path = rf"logs/{file_name}"
-            with open(path, "a") as f:
-                for object in object_list:
-                    f.write(json.dumps(object.dict(), indent=4) + "\n")
-                print("Write the objects to file successfully.")
+            with jsonlines.open(path, 'a') as writer:
+                for obj in object_list:
+                    writer.write(obj.dict())
+                print(f"Success write the list to the file {file_name}")
         except Exception as e:
             print(f"Error writing to file: {e}")
     

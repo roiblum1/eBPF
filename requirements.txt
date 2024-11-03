@@ -4,3 +4,4 @@ bcc
 matplotlib
 numpy
 ipaddress
+jsonlines
