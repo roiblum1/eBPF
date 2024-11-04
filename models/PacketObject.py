@@ -13,7 +13,7 @@ class PacketInformation(BaseModel):
     @field_validator('src_ip','dest_ip', mode="before")
     def convert_ip_to_string(cls, v):
         return IPInterface.opposite_ip(IPInterface.convert_ip_str(v))
-    
+        
     @field_validator('data')
     def convert_data_type(clv, v):
         return str(v)
