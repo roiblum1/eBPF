@@ -53,6 +53,7 @@ def read_maps():
         aggregate_maps.append(packet_aggregate_map)
     FileInterface.write_list_file(aggregate_maps, "aggregate_map.json")
     
+    print("Global Map:")
     global_map_dict = json.loads(global_map)
     key = global_map_dict[0]["key"]
     value = global_map_dict[0]["value"]
