@@ -6,7 +6,7 @@ class FileInterface():
     def write_list_file(object_list: list, file_name: str) -> None:
         try:
             path = rf"/home/nehfaf/dev/logs/{file_name}"
-            with jsonlines.open(path, 'a') as writer:
+            with jsonlines.open(path, 'w') as writer:
                 for obj in object_list:
                     writer.write(obj.dict())
                 print(f"Success write the list to the file {file_name}")

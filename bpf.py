@@ -54,9 +54,7 @@ def read_maps():
     
     print("Global Map:")
     global_map_dict = json.loads(global_map)
-    key = global_map_dict[0]["key"]
-    value = global_map_dict[0]["value"]
-    global_map = GlobalMap(**value)
+    global_map = ParseToObject.parse_global_map(global_map_dict)
     OSInterface.remove_file("logs/global_map.json")
     FileInterface.write_list_file([global_map], "global_map.json") 
     return aggregate_maps, global_map
@@ -66,8 +64,6 @@ def main():
     packet_list = read_file_tracing()
     FileInterface.write_list_file(packet_list, "packet_list.json")
     aggregate_maps, global_map = read_maps()
-    visualizeAggregateMap(aggregate_maps)
-    global_map.visualize()
     
 if __name__ == "__main__":
   main()

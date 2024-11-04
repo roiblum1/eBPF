@@ -6,6 +6,7 @@ class IPInterface:
         ip_address = ipaddress.ip_address(ip_in_bytes)
         reversed_ip = ".".join(str(ip_address).split(".")[::-1])
         return reversed_ip
+    
     def opposite_ip(ip_address:str) -> str:
         reversed_ip = ".".join(str(ip_address).split(".")[::-1])
         return reversed_ip        
