@@ -36,5 +36,5 @@ class GlobalMap(BaseModel):
         ax.set_xlabel('Metrics')
         ax.set_title('Global packet statistics')
         ax.legend(loc='upper left', ncols=3)
-        ax.set_ylim(0, 250)
+        ax.set_ylim(0, max(metrics.values()) * 1.1)
         plt.show()

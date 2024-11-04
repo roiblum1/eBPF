@@ -1,7 +1,7 @@
 from models.PacketObject import PacketInformation
 from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap
 from models.GlobalMapObject import GlobalMap
-from Helpers.IPconverte import IPInterface
+from Helpers.IPconvert import IPInterface
 
 class ParseToObject(): 
     def parse_trace(line: str) -> PacketInformation:
@@ -27,7 +27,7 @@ class ParseToObject():
     def parse_packet_map(packet_map: dict) -> PacketInformation:
         key = packet_map["key"]
         value = packet_map["value"]
-        value["dest_ip"] = IPInterface.converte_ip_str(value["dst_ip"])
+        value["dest_ip"] = IPInterface.convert_ip_str(value["dst_ip"])
         value["data"] = ""
         return PacketInformation(**packet_map["value"])
     

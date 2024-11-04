@@ -8,6 +8,7 @@ class FileToObject():
         with open(file_path, "r") as file:
             for map in jsonlines.Reader(file):
                 packet_map_key = PacketMapKey(**map["key"])
+                packet_map_key.reverse_ips()
                 packet_aggregate = PacketAggregate(**map["value"])
                 aggregate_map = PacketAggregateMap(key=packet_map_key, value=packet_aggregate)
                 aggregate_maps.append(aggregate_map)
@@ -18,5 +19,3 @@ class FileToObject():
             for map in jsonlines.Reader(file):
                 global_map = GlobalMap(**map)
             return global_map
-print(FileToObject.parse_aggregate_map("logs/aggregate_map.json"))
-FileToObject.parse_global_map("logs/global_map.json").visualize()

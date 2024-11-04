@@ -1,6 +1,6 @@
 from pydantic import BaseModel, field_validator
 from typing import Optional
-from Helpers.IPconverte import IPInterface
+from Helpers.IPconvert import IPInterface
 
 class PacketInformation(BaseModel):
     src_ip: str
@@ -12,8 +12,8 @@ class PacketInformation(BaseModel):
     data: str
     @field_validator('src_ip','dest_ip', mode="before")
     def convert_ip_to_string(cls, v):
-        return IPInterface.converte_ip_str(v)
+        return IPInterface.convert_ip_str(v)
     
     @field_validator('data')
-    def converte_data_type(clv, v):
+    def convert_data_type(clv, v):
         return str(v)

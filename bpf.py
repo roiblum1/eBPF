@@ -3,7 +3,7 @@ import json
 from models.PacketObject import PacketInformation
 from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap, visualizeAggregateMap
 from models.GlobalMapObject import GlobalMap
-from Helpers.IPconverte import IPInterface
+from Helpers.IPconvert import IPInterface
 from Helpers.FileOperations import FileInterface
 from Helpers.OSFunctions import OSInterface
 from Helpers.parse_to_object import ParseToObject
@@ -39,6 +39,7 @@ def read_maps():
     packet_map_dicts = json.loads(packet_map)
     for map in packet_map_dicts:
         packet_map = ParseToObject.parse_packet_map(map)
+        packet_map["dest_ip"] = IPInterface.opposite_ip(packet_map["dest_ip"])
         packets_maps.append(packet_map)
     FileInterface.write_list_file(packets_maps, "packets_maps.json")
     

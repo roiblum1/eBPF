@@ -2,7 +2,7 @@ import socket
 import ipaddress
 
 class IPInterface:
-    def converte_ip_str(ip_in_bytes):
+    def convert_ip_str(ip_in_bytes):
         ip_address = ipaddress.ip_address(ip_in_bytes)
         reversed_ip = ".".join(str(ip_address).split(".")[::-1])
         return reversed_ip

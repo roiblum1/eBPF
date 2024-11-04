@@ -111,6 +111,10 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
     
+    struct tcphdr* tcp_hdr = (struct tcphdr*) ((char*)l3 + sizeof(struct iphdr) * (l3->ihl * 4));
+    uint16_t src_port = bpf_ntohs(tcp_hdr->source);
+    uint16_t dst_port = bpf_ntohs(tcp_hdr->dest);
+    
     //create the key structure for the map. 
     struct packet_map_key key_map; 
     key_map.src_ip = l3->saddr;

@@ -2,15 +2,17 @@ from pydantic import BaseModel, computed_field, field_validator
 from typing import Optional
 import matplotlib.pyplot as plt
 import numpy as np
-from Helpers.IPconverte import IPInterface
+from Helpers.IPconvert import IPInterface
 
 class PacketMapKey(BaseModel):
     src_ip: str
     dst_ip: str
     @field_validator('src_ip','dst_ip', mode="before")
     def convert_ip_to_string(cls, v):
-        return IPInterface.converte_ip_str(v)
+        return IPInterface.convert_ip_str(v)
     
+    def reverse_ips(self) -> None:
+        self.src_ip, self.dst_ip = IPInterface.opposite_ip(self.dst_ip), IPInterface.opposite_ip(self.src_ip)
 class PacketAggregate(BaseModel):
     total_packet_count: int
     total_packet_length: int
@@ -28,6 +30,8 @@ class PacketAggregateMap(BaseModel):
     value: PacketAggregate
 
 def visualizeAggregateMap(packet_aggregate_map: list[PacketAggregateMap]): 
+    top_10_maps = sorted(packet_aggregate_map, key=lambda x: x.value.total_packet_count, reverse=True)[:5]
+    packet_aggregate_map = top_10_maps
     keys = []
     for map in packet_aggregate_map:
         keys.append(map.key.src_ip + " -> " + map.key.dst_ip)
@@ -51,10 +55,10 @@ def visualizeAggregateMap(packet_aggregate_map: list[PacketAggregateMap]):
         multiplier += 1
 
     ax.set_ylabel('Length (mm)')
-    ax.set_title('Penguin attributes by species')
+    ax.set_title('Top 10 Keys Packet Metrics')
     ax.set_xticks(x + width, keys)
     ax.legend(loc='upper left', ncols=3)
-    ax.set_ylim(0, 50000)
+    ax.set_ylim(0, max(map.value.total_packet_length for map in top_10_maps) * 1.1)
 
     plt.ion()
     plt.show(block=True)
