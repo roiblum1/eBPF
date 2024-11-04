@@ -38,8 +38,7 @@ def read_maps():
     packets_maps = []  
     packet_map_dicts = json.loads(packet_map)
     for map in packet_map_dicts:
-        packet_map = ParseToObject.parse_packet_map(map)
-        packet_map["dest_ip"] = IPInterface.opposite_ip(packet_map["dest_ip"])
+        packet_map = ParseToObject.parse_packet_map(map)   
         packets_maps.append(packet_map)
     FileInterface.write_list_file(packets_maps, "packets_maps.json")
     
