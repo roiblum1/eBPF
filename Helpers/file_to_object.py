@@ -3,7 +3,7 @@ from models.GlobalMapObject import GlobalMap
 import jsonlines
 
 class FileToObject():
-    def parse_aggregate_map(file_path:str):
+    def parse_aggregate_map(file_path:str = "logs/aggregate_map.json"):
         aggregate_maps = []
         with open(file_path, "r") as file:
             for map in jsonlines.Reader(file):
@@ -14,8 +14,9 @@ class FileToObject():
                 aggregate_maps.append(aggregate_map)
         return aggregate_maps
             
-    def parse_global_map(file_path:str):
+    def parse_global_map(file_path:str = "logs/global_map.json"):
         with open(file_path, 'r') as file:
             for map in jsonlines.Reader(file):
                 global_map = GlobalMap(**map)
             return global_map
+        
