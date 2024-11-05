@@ -35,10 +35,13 @@ def read_maps():
     global_map = OSInterface.get_map(global_aggregate_data_path)
 
     print("Packet Map: ")
+    SSH, TLS, RDP = 22, 443, 3389
     packets_maps = []  
     packet_map_dicts = json.loads(packet_map)
     for map in packet_map_dicts:
-        packet_map = ParseToObject.parse_packet_map(map)   
+        packet_map = ParseToObject.parse_packet_map(map)
+        if (packet_map.dst_port == SSH or packet_map.dst_port == TLS or packet_map.dst_port == RDP):
+            FileInterface.write_alert_log(packet_map)  
         packets_maps.append(packet_map)
     FileInterface.write_list_file(packets_maps, "packets_maps.json")
     

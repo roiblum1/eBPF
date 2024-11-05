@@ -1,5 +1,6 @@
 import json
 from models.AggregateMapObject import PacketAggregateMap
+from models.PacketObject import PacketInformation
 import jsonlines
 
 class FileInterface():
@@ -17,3 +18,9 @@ class FileInterface():
         PATH = rf"/home/nehfaf/dev/logs/{file_name}"
         with open(PATH, "a") as file:
             file.write(f"{packet_aggregate_map.key.src_ip} -> {packet_aggregate_map.key.dst_ip} is reaching the max total packet and reach to {packet_aggregate_map.value.total_packet_count} \n")
+            
+    def alert_port_log(packet_map: PacketInformation, file_name: str = "alerts.txt"):
+        PATH = rf"/home/nehfaf/dev/logs/{file_name}"
+        with open(PATH, "a") as file:
+            file.write(f"Alert: {packet_map.src_ip}:{packet_map.src_port} -> {packet_map.dst_ip}:{packet_map.dst_port} is reaching the max packet count\n")
+        
