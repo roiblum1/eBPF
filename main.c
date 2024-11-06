@@ -14,6 +14,8 @@
 struct packet_information {
     __u32 src_ip;
     __u32 dst_ip;
+    __u16 src_port;
+    __u16 dst_port;
     __u16 tot_len;
     __u8 ttl;
     char protocol[4];
@@ -91,13 +93,14 @@ int tc_ingress(struct __sk_buff *ctx)
     void *data = (void *)(__u64)ctx->data;
     struct ethhdr *l2;
     struct iphdr *l3;
+    struct tcphdr *tcp;
 
     if (ctx->protocol != bpf_htons(ETH_P_IP))
         return TC_ACT_OK;
 
     l2 = data;
 
-    //check if the ehternet frame is in bounds.  
+    //check if the ehterne      t frame is in bounds.  
     if ((void *)(l2 + 1) > data_end)
         return TC_ACT_OK;
 
@@ -111,6 +114,14 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
 
+    tcp = (struct tcphdr *)((void *)l3 + (l3->ihl * 4));
+    if ((void *)(tcp + 1) > data_end)
+    {
+        return TC_ACT_OK;
+    }
+    __u16 src_port = bpf_ntohs(tcp->source);
+    __u16 dst_port = bpf_ntohs(tcp->dest);
+    
     //create the key structure for the map. 
     struct packet_map_key key_map; 
     key_map.src_ip = l3->saddr;
@@ -120,6 +131,8 @@ int tc_ingress(struct __sk_buff *ctx)
     struct packet_information packet_data;
     packet_data.src_ip = l3->saddr;
     packet_data.dst_ip = l3->daddr;
+    packet_data.src_port = src_port;
+    packet_data.dst_port = dst_port;
     packet_data.tot_len = bpf_ntohs(l3->tot_len);
     packet_data.ttl = l3->ttl;
     strcpy(packet_data.protocol, PROTOCOL);
