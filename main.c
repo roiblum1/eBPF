@@ -93,7 +93,7 @@ int tc_ingress(struct __sk_buff *ctx)
     void *data = (void *)(__u64)ctx->data;
     struct ethhdr *l2;
     struct iphdr *l3;
-    struct tcp_t *tcp;
+    struct tcphdr *tcp;
 
     if (ctx->protocol != bpf_htons(ETH_P_IP))
         return TC_ACT_OK;
@@ -114,9 +114,8 @@ int tc_ingress(struct __sk_buff *ctx)
         return TC_ACT_OK;
     }
 
-    u8 *cursor = 0;
-    tcp = (struct tcp_t *)((void *)l3 + (l3->ihl * 4));
-    if ((void *)(tcp) > data_end)
+    tcp = (struct tcphdr *)((void *)l3 + (l3->ihl * 4));
+    if ((void *)(tcp + 1) > data_end)
     {
         return TC_ACT_OK;
     }
