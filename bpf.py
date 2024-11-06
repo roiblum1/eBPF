@@ -40,8 +40,9 @@ def read_maps():
     packet_map_dicts = json.loads(packet_map)
     for map in packet_map_dicts:
         packet_map = ParseToObject.parse_packet_map(map)
+        print(packet_map.dst_port)
         if (packet_map.dst_port == SSH or packet_map.dst_port == TLS or packet_map.dst_port == RDP):
-            FileInterface.write_alert_log(packet_map)  
+            FileInterface.alert_port_log(packet_map) 
         packets_maps.append(packet_map)
     FileInterface.write_list_file(packets_maps, "packets_maps.json")
     
