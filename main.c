@@ -7,6 +7,7 @@
 #define TC_ACT_OK 0
 #define ETH_P_IP 0x0800 /* Internet Protocol packet */
 #define PROTOCOL "TCP"
+#define IP_LIST_MAX_SIZE 10  
 
 /// @tchook {"ifindex":2, "attach_point":"BPF_TC_INGRESS"}
 /// @tcopts {"handle":1, "priority":1}
@@ -20,6 +21,9 @@ struct packet_information {
     __u8 ttl;
     char protocol[4];
     char data[256];
+    __u64 timestamp;            // New field for timestamp
+    unsigned char src_mac[6];   // Source MAC address
+    unsigned char dst_mac[6];   // Destination MAC address
 };
 
 struct packet_map_key {
@@ -33,7 +37,12 @@ struct packet_aggregate{
     __u64 total_ttl;
 };
 
-//this map will aggregate statistics for each unique IP pair
+// Structure to hold a list of IPs associated with a MAC address
+struct ip_list {
+    __u32 ips[IP_LIST_MAX_SIZE];
+};
+
+// Map to aggregate statistics for each unique IP pair
 struct {
     __uint(type, BPF_MAP_TYPE_HASH);
     __type(key, struct packet_map_key);
@@ -42,7 +51,7 @@ struct {
     __uint(pinning, LIBBPF_PIN_BY_NAME);
 } packets_aggregate_map SEC(".maps");
 
-//this map will hold the statistics for each all packets. 
+// Map to hold the global statistics for all packets
 struct {
     __uint(type, BPF_MAP_TYPE_HASH);
     __type(key, __u32);
@@ -51,8 +60,7 @@ struct {
     __uint(pinning, LIBBPF_PIN_BY_NAME);
 } global_aggregate_data SEC(".maps");
 
-//this map will hold the last packet details for each unique IP pair 
-//also it will hold the number of packets for each unique IP pair.
+// Map to hold the last packet details for each unique IP pair
 struct {
     __uint(type, BPF_MAP_TYPE_HASH);
     __type(key, struct packet_map_key);
@@ -60,6 +68,15 @@ struct {
     __uint(max_entries, 1024);
     __uint(pinning, LIBBPF_PIN_BY_NAME);
 } packet_map SEC(".maps");
+
+// Map to keep track of IPs associated with each MAC address
+struct {
+    __uint(type, BPF_MAP_TYPE_HASH);
+    __type(key, unsigned char [6]);      
+    __type(value, struct ip_list);       
+    __uint(max_entries, 1024);
+    __uint(pinning, LIBBPF_PIN_BY_NAME);
+} mac_ip_map SEC(".maps");
 
 // Helper function to check if the packet is the protocol that we are interested in.
 // NOTE: The relevant protocol is configured in the Global variable "PROTOCOL".
@@ -135,7 +152,16 @@ int tc_ingress(struct __sk_buff *ctx)
     packet_data.dst_port = dst_port;
     packet_data.tot_len = bpf_ntohs(l3->tot_len);
     packet_data.ttl = l3->ttl;
+    packet_data.timestamp = bpf_ktime_get_ns();
     strcpy(packet_data.protocol, PROTOCOL);
+
+    for (int i = 0; i < 6; i++) {
+        packet_data.src_mac[i] = l2->h_source[i];
+    }
+
+    for (int i = 0; i < 6; i++) {
+        packet_data.dst_mac[i] = l2->h_dest[i];
+    }
 
     //to ensure theat the data size is 256 bytes
     int data_size = data_end - data;
@@ -188,6 +214,54 @@ int tc_ingress(struct __sk_buff *ctx)
         global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
         global_aggregate->total_ttl += l3->ttl;
         //bpf_map_update_elem(&global_aggregate_data, &global_key, &global_aggregate, BPF_ANY);
+    }
+
+    unsigned char src_mac[6];
+    for (int i = 0; i < 6; i++) {
+        src_mac[i] = l2->h_source[i];
+    }
+
+    struct ip_list *existing_ip_list = bpf_map_lookup_elem(&mac_ip_map, src_mac);
+    struct ip_list new_ip_list = {};
+
+    if (existing_ip_list == NULL) {
+        // No entry exists; create a new IP list
+        new_ip_list.ips[0] = l3->saddr; 
+        bpf_map_update_elem(&mac_ip_map, src_mac, &new_ip_list, BPF_ANY);
+    } 
+    else 
+    {
+        // Copy the existing IP list into new_ip_list
+        for (int i = 0; i < IP_LIST_MAX_SIZE; i++) {
+            new_ip_list.ips[i] = existing_ip_list->ips[i];
+        }
+
+        // Check if the IP is already associated with this MAC
+        bool ip_exists = false;
+        for (int i = 0; i < IP_LIST_MAX_SIZE; i++) 
+        {
+            if (new_ip_list.ips[i] == l3->saddr) 
+            {
+                ip_exists = true;
+                break;
+            }
+        }
+
+        if (!ip_exists) 
+        {
+            // Add the new IP to the list
+            bool added = false;
+            for (int i = 0; i < IP_LIST_MAX_SIZE; i++) 
+            {
+                if (new_ip_list.ips[i] == 0) 
+                { 
+                    new_ip_list.ips[i] = l3->saddr;
+                    added = true;
+                    break;
+                }
+            }
+        }
+        bpf_map_update_elem(&mac_ip_map, src_mac, &new_ip_list, BPF_ANY);
     }
 
     //I need to implement the convertor.
