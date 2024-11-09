@@ -14,9 +14,16 @@ class FileToObject():
                 aggregate_maps.append(aggregate_map)
         return aggregate_maps
             
-    def parse_global_map(file_path:str = "logs/global_map.json"):
+    def parse_global_map(file_path: str = "logs/global_map.json", max_entries=288):
+        global_maps = []
         with open(file_path, 'r') as file:
-            for map in jsonlines.Reader(file):
-                global_map = GlobalMap(**map)
-            return global_map
+            for map_entry in jsonlines.Reader(file):
+                global_map = GlobalMap(**map_entry)
+                global_maps.append(global_map)
+        if len(global_maps) > max_entries:
+            global_maps = global_maps[-max_entries:]
+            with open(file_path, 'w') as file:
+                for global_map in global_maps:
+                    file.write(global_map.model_dump_json() + '\n')
+        return global_maps
         

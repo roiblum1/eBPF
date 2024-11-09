@@ -1,5 +1,6 @@
 from models.AggregateMapObject import PacketAggregate, PacketMapKey, PacketAggregateMap, visualizeAggregateMap
 from Helpers.file_to_object import FileToObject
+from models.GlobalMapObject import visualize_global_map
 import tkinter as tk
  
 def open_visulize_aggregate():
@@ -8,7 +9,7 @@ def open_visulize_aggregate():
 
 def open_visulize_global():
     global_map = FileToObject.parse_global_map()
-    global_map.visualize()
+    visualize_global_map(global_map)
     
 root = tk.Tk()
 root.title("Roi Blum Project")

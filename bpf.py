@@ -30,9 +30,12 @@ def read_maps():
     packet_map_path = r"/sys/fs/bpf/packet_map"
     packets_aggregate_map_path = r"/sys/fs/bpf/packets_aggregate_map"
     global_aggregate_data_path = r"/sys/fs/bpf/global_aggregate_data"
+    mac_address_map_path = r"/sys/fs/bpf/mac_ip_map"
+    
     packet_map = OSInterface.get_map(packet_map_path)
     aggregate_map = OSInterface.get_map(packets_aggregate_map_path)
     global_map = OSInterface.get_map(global_aggregate_data_path)
+    mac_address_map_json = OSInterface.get_map(mac_address_map_path)
 
     print("Packet Map: ")
     SSH, TLS, RDP = 22, 443, 3389
@@ -41,7 +44,7 @@ def read_maps():
     for map in packet_map_dicts:
         packet_map = ParseToObject.parse_packet_map(map)
         print(packet_map.dst_port)
-        if (packet_map.dst_port == SSH or packet_map.dst_port == TLS or packet_map.dst_port == RDP):
+        if packet_map.dst_port in (SSH, TLS, RDP):
             FileInterface.alert_port_log(packet_map) 
         packets_maps.append(packet_map)
     FileInterface.write_list_file(packets_maps, "packets_maps.json")
@@ -58,10 +61,20 @@ def read_maps():
     
     print("Global Map:")
     global_map_dict = json.loads(global_map)
-    global_map = ParseToObject.parse_global_map(global_map_dict)
-    OSInterface.remove_file("logs/global_map.json")
-    FileInterface.write_list_file([global_map], "global_map.json") 
-    return aggregate_maps, global_map
+    global_map_obj = ParseToObject.parse_global_map(global_map_dict)
+    FileInterface.write_list_file([global_map_obj], "global_map.json") 
+    
+    print("MAC-IP Map:")
+    mac_address_maps = []
+    mac_address_map_dicts = json.loads(mac_address_map_json)
+    for map_entry in mac_address_map_dicts:
+        mac_ip_entry = ParseToObject.parse_mac_ip_map_entry(map_entry)
+        if len(mac_ip_entry.value.ips) > 2:
+            FileInterface.alert_mac_ip_log(mac_ip_entry)  # Remember to implement this function
+        mac_address_maps.append(mac_ip_entry)
+    FileInterface.write_list_file(mac_address_maps, "mac_ip_map.json")
+    
+    return aggregate_maps, global_map_obj
 
 
 def main():

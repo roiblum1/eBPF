@@ -4,18 +4,13 @@ from Helpers.IPconvert import IPInterface
 
 class PacketInformation(BaseModel):
     src_ip: str
-    dest_ip: str
+    dst_ip: str  
     src_port: Optional[int] = 0
     dst_port: Optional[int] = 0
     tot_len: int
     ttl: int
     protocol: str
-    data_length: Optional[int] = 0 
-    data: str
-    @field_validator('src_ip','dest_ip', mode="before")
+
+    @field_validator('src_ip', 'dst_ip', mode="before")
     def convert_ip_to_string(cls, v):
         return IPInterface.opposite_ip(IPInterface.convert_ip_str(v))
-
-    @field_validator('data')
-    def convert_data_type(clv, v):
-        return str(v)

@@ -20,10 +20,6 @@ struct packet_information {
     __u16 tot_len;
     __u8 ttl;
     char protocol[4];
-    char data[256];
-    __u64 timestamp;            // New field for timestamp
-    unsigned char src_mac[6];   // Source MAC address
-    unsigned char dst_mac[6];   // Destination MAC address
 };
 
 struct packet_map_key {
@@ -36,6 +32,14 @@ struct packet_aggregate{
     __u64 total_packet_length;
     __u64 total_ttl;
 };
+
+struct global_aggregate_map {
+    __u64 total_packet_count; 
+    __u64 total_packet_length;
+    __u64 total_ttl;
+    __u64 timestamp; 
+};
+
 
 // Structure to hold a list of IPs associated with a MAC address
 struct ip_list {
@@ -55,7 +59,7 @@ struct {
 struct {
     __uint(type, BPF_MAP_TYPE_HASH);
     __type(key, __u32);
-    __type(value, struct packet_aggregate);
+    __type(value, struct global_aggregate_map);
     __uint(max_entries, 1024);
     __uint(pinning, LIBBPF_PIN_BY_NAME);
 } global_aggregate_data SEC(".maps");
@@ -152,29 +156,7 @@ int tc_ingress(struct __sk_buff *ctx)
     packet_data.dst_port = dst_port;
     packet_data.tot_len = bpf_ntohs(l3->tot_len);
     packet_data.ttl = l3->ttl;
-    packet_data.timestamp = bpf_ktime_get_ns();
     strcpy(packet_data.protocol, PROTOCOL);
-
-    for (int i = 0; i < 6; i++) {
-        packet_data.src_mac[i] = l2->h_source[i];
-    }
-
-    for (int i = 0; i < 6; i++) {
-        packet_data.dst_mac[i] = l2->h_dest[i];
-    }
-
-    //to ensure theat the data size is 256 bytes
-    int data_size = data_end - data;
-    if (data_size > 256)
-        data_size = 256;
-
-    for (int i = 0; i < data_size; i++) {
-        //insure that i am still in the packet size, because if its less than 256 
-        //I have got an error without it. 
-        if ((void *)(data + i + 1) > data_end)
-            break;
-        packet_data.data[i] = ((char *)data)[i];
-    }
     bpf_map_update_elem(&packet_map, &key_map, &packet_data, BPF_ANY);
 
     struct packet_aggregate *aggregate_data= bpf_map_lookup_elem(&packets_aggregate_map, &key_map);
@@ -199,13 +181,14 @@ int tc_ingress(struct __sk_buff *ctx)
 
     //this section of the code will update the map of the global statistics.
     __u32 global_key = 1; 
-    struct packet_aggregate *global_aggregate = bpf_map_lookup_elem(&global_aggregate_data, &global_key);
+    struct global_aggregate_map *global_aggregate = bpf_map_lookup_elem(&global_aggregate_data, &global_key);
     if (global_aggregate == NULL)
     {
-        struct packet_aggregate new_global_aggregate;
+        struct global_aggregate_map new_global_aggregate = {};
         new_global_aggregate.total_packet_count = 1;
         new_global_aggregate.total_packet_length = bpf_ntohs(l3->tot_len);
         new_global_aggregate.total_ttl = l3->ttl;
+        new_global_aggregate.timestamp = bpf_ktime_get_ns();
         bpf_map_update_elem(&global_aggregate_data, &global_key, &new_global_aggregate, BPF_ANY);
     }
     else 
@@ -213,7 +196,8 @@ int tc_ingress(struct __sk_buff *ctx)
         global_aggregate->total_packet_count += 1;
         global_aggregate->total_packet_length += bpf_ntohs(l3->tot_len);
         global_aggregate->total_ttl += l3->ttl;
-        //bpf_map_update_elem(&global_aggregate_data, &global_key, &global_aggregate, BPF_ANY);
+        global_aggregate->timestamp = bpf_ktime_get_ns();  
+        // No need to call bpf_map_update_elem since we're modifying in place
     }
 
     unsigned char src_mac[6];
@@ -269,10 +253,10 @@ int tc_ingress(struct __sk_buff *ctx)
     unsigned char *dst_ip_bytes = (unsigned char *)&key_map.dst_ip;
 
     //print section.
-    bpf_printk("src_ip:%d.%d.%d.%d,dest_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s,data:%p\n",
+    bpf_printk("src_ip:%d.%d.%d.%d,dest_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s\n",
     src_ip_bytes[0], src_ip_bytes[1], src_ip_bytes[2], src_ip_bytes[3],
     dst_ip_bytes[0], dst_ip_bytes[1], dst_ip_bytes[2], dst_ip_bytes[3], 
-    packet_data.tot_len, packet_data.ttl, packet_data.protocol, packet_data.data); 
+    packet_data.tot_len, packet_data.ttl, packet_data.protocol); 
 
     return TC_ACT_OK;
 }
