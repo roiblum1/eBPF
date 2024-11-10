@@ -16,13 +16,23 @@ class ParseToObject():
                 if len(data) == 2:
                     attribute = data[0].strip()
                     value = data[1].strip()
+                    # Map 'dest_ip' to 'dst_ip' if needed
+                    if attribute == 'dest_ip':
+                        attribute = 'dst_ip'
                     packet_information_dict[attribute] = value
                 else:
                     print(f"Could not parse field '{field}' in packet: {line}")
                     return None
+            # Check if all required fields are present
+            required_fields = ['src_ip', 'dst_ip', 'tot_len', 'ttl', 'protocol']
+            for field in required_fields:
+                if field not in packet_information_dict:
+                    print(f"Missing field '{field}' in packet: {line}")
+                    return None
             return PacketInformation(**packet_information_dict)
         else:
             return None
+
 
 
 

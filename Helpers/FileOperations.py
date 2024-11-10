@@ -26,7 +26,9 @@ class FileInterface():
     def alert_port_log(packet_map: PacketInformation, file_name: str = "alerts.txt"):
         PATH = rf"/home/nehfaf/dev/logs/{file_name}"
         with open(PATH, "a") as file:
-            file.write(f"{packet_map.src_ip}:{packet_map.src_port} -> {packet_map.dest_ip}:{packet_map.dst_port} packet is using remote control port ! \n")
+            file.write(f"{packet_map.src_ip}:{packet_map.src_port} -> {packet_map.dst_ip}:{packet_map.dst_port} packet is using remote control port ! \n")
+
+
     
     def alert_mac_ip_log(mac_ip_entry: MacIpMapEntry):
         alert_message = f"Alert: MAC address {mac_ip_entry.key.mac} is associated with multiple IPs: {', '.join(mac_ip_entry.value.ips)}"

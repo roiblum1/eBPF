@@ -253,10 +253,12 @@ int tc_ingress(struct __sk_buff *ctx)
     unsigned char *dst_ip_bytes = (unsigned char *)&key_map.dst_ip;
 
     //print section.
-    bpf_printk("src_ip:%d.%d.%d.%d,dest_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s\n",
-    src_ip_bytes[0], src_ip_bytes[1], src_ip_bytes[2], src_ip_bytes[3],
-    dst_ip_bytes[0], dst_ip_bytes[1], dst_ip_bytes[2], dst_ip_bytes[3], 
-    packet_data.tot_len, packet_data.ttl, packet_data.protocol); 
+    bpf_printk("src_ip:%d.%d.%d.%d,dst_ip:%d.%d.%d.%d,tot_len:%d,ttl:%d,protocol:%s\n",
+        src_ip_bytes[0], src_ip_bytes[1], src_ip_bytes[2], src_ip_bytes[3],
+        dst_ip_bytes[0], dst_ip_bytes[1], dst_ip_bytes[2], dst_ip_bytes[3], 
+        packet_data.tot_len, packet_data.ttl, packet_data.protocol);
+
+
 
     return TC_ACT_OK;
 }
