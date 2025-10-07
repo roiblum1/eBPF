@@ -1,0 +1,8 @@
+{"src_ip": "178.238.223.35", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 54310, "tot_len": 386, "ttl": 55, "protocol": "TCP"}
+{"src_ip": "103.57.36.34", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 41242, "tot_len": 52, "ttl": 123, "protocol": "TCP"}
+{"src_ip": "166.20.34.192", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 60650, "tot_len": 52, "ttl": 47, "protocol": "TCP"}
+{"src_ip": "133.195.216.95", "dst_ip": "148.1.168.192", "src_port": 80, "dst_port": 50996, "tot_len": 52, "ttl": 44, "protocol": "TCP"}
+{"src_ip": "3.1.111.20", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 58720, "tot_len": 52, "ttl": 108, "protocol": "TCP"}
+{"src_ip": "1.1.168.192", "dst_ip": "148.1.168.192", "src_port": 80, "dst_port": 46900, "tot_len": 52, "ttl": 64, "protocol": "TCP"}
+{"src_ip": "105.246.116.51", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 56568, "tot_len": 52, "ttl": 106, "protocol": "TCP"}
+{"src_ip": "21.112.82.140", "dst_ip": "148.1.168.192", "src_port": 443, "dst_port": 33702, "tot_len": 40, "ttl": 48, "protocol": "TCP"}

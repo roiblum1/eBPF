@@ -1,0 +1,65 @@
+2025-10-07 20:51:31 - root - INFO - Configuration validation passed
+2025-10-07 20:51:31 - root - INFO - eBPF Network Monitor v1.0.0 - Configuration loaded
+2025-10-07 20:51:31 - __main__ - INFO - ==================================================
+2025-10-07 20:51:31 - __main__ - INFO - eBPF Network Monitor v1.0.0 - Data Collection
+2025-10-07 20:51:31 - __main__ - INFO - ==================================================
+2025-10-07 20:51:31 - __main__ - INFO - Processing packet map...
+2025-10-07 20:51:31 - __main__ - INFO - Collected 8 packet entries
+2025-10-07 20:51:31 - __main__ - INFO - Processing aggregate map...
+2025-10-07 20:51:31 - __main__ - INFO - Collected 8 aggregate entries
+2025-10-07 20:51:31 - __main__ - INFO - Processing global map...
+2025-10-07 20:51:31 - __main__ - INFO - Global statistics collected
+2025-10-07 20:51:31 - __main__ - INFO - Processing MAC-IP map...
+2025-10-07 20:51:31 - __main__ - WARNING - Potential MAC spoofing detected: 8 IPs
+2025-10-07 20:51:31 - __main__ - INFO - Collected 1 MAC-IP mappings
+2025-10-07 20:51:31 - __main__ - INFO - Collection complete: 8 aggregate entries
+2025-10-07 20:51:31 - __main__ - INFO - Data saved to data/logs/
+2025-10-07 20:51:31 - __main__ - INFO - Exiting gracefully
+2025-10-07 20:59:16 - root - INFO - Configuration validation passed
+2025-10-07 20:59:16 - root - INFO - eBPF Network Monitor v1.0.0 - Configuration loaded
+2025-10-07 20:59:16 - __main__ - INFO - ==================================================
+2025-10-07 20:59:16 - __main__ - INFO - eBPF Network Monitor v1.0.0 - Data Collection
+2025-10-07 20:59:16 - __main__ - INFO - ==================================================
+2025-10-07 20:59:17 - __main__ - INFO - Processing packet map...
+2025-10-07 20:59:17 - __main__ - INFO - Collected 8 packet entries
+2025-10-07 20:59:17 - __main__ - INFO - Processing aggregate map...
+2025-10-07 20:59:17 - __main__ - INFO - Collected 8 aggregate entries
+2025-10-07 20:59:17 - __main__ - INFO - Processing global map...
+2025-10-07 20:59:17 - __main__ - INFO - Global statistics collected
+2025-10-07 20:59:17 - __main__ - INFO - Processing MAC-IP map...
+2025-10-07 20:59:17 - __main__ - INFO - Collection complete: 8 aggregate entries
+2025-10-07 20:59:17 - __main__ - INFO - Data saved to data/logs/
+2025-10-07 20:59:17 - __main__ - INFO - Exiting gracefully
+2025-10-07 21:00:33 - root - INFO - Configuration validation passed
+2025-10-07 21:00:33 - root - INFO - eBPF Network Monitor v1.0.0 - Configuration loaded
+2025-10-07 21:00:33 - __main__ - INFO - ==================================================
+2025-10-07 21:00:33 - __main__ - INFO - eBPF Network Monitor v1.0.0 - Visualization
+2025-10-07 21:00:33 - __main__ - INFO - ==================================================
+2025-10-07 21:00:33 - __main__ - INFO - GUI initialized, starting main loop
+2025-10-07 21:00:47 - __main__ - INFO - Loading aggregate map data...
+2025-10-07 21:00:47 - __main__ - INFO - Visualizing 8 aggregate entries
+2025-10-07 21:01:06 - __main__ - INFO - Loading global map data...
+2025-10-07 21:01:06 - __main__ - INFO - Visualizing 3 global entries
+2025-10-07 21:01:18 - __main__ - INFO - Exiting gracefully
+2025-10-07 21:01:26 - root - INFO - Configuration validation passed
+2025-10-07 21:01:26 - root - INFO - eBPF Network Monitor v1.0.0 - Configuration loaded
+2025-10-07 21:01:26 - __main__ - INFO - ==================================================
+2025-10-07 21:01:26 - __main__ - INFO - eBPF Network Monitor v1.0.0 - Visualization
+2025-10-07 21:01:26 - __main__ - INFO - ==================================================
+2025-10-07 21:01:26 - __main__ - INFO - GUI initialized, starting main loop
+2025-10-07 21:01:29 - __main__ - INFO - Loading global map data...
+2025-10-07 21:01:29 - __main__ - INFO - Visualizing 3 global entries
+2025-10-07 21:01:31 - __main__ - INFO - Loading global map data...
+2025-10-07 21:01:31 - __main__ - INFO - Visualizing 3 global entries
+2025-10-07 21:05:14 - __main__ - INFO - Exiting gracefully
+2025-10-07 21:05:16 - root - INFO - Configuration validation passed
+2025-10-07 21:05:16 - root - INFO - eBPF Network Monitor v1.0.0 - Configuration loaded
+2025-10-07 21:05:16 - __main__ - INFO - ==================================================
+2025-10-07 21:05:16 - __main__ - INFO - eBPF Network Monitor v1.0.0 - Visualization
+2025-10-07 21:05:16 - __main__ - INFO - ==================================================
+2025-10-07 21:05:16 - __main__ - INFO - GUI initialized, starting main loop
+2025-10-07 21:05:21 - __main__ - INFO - Loading global map data...
+2025-10-07 21:05:21 - __main__ - INFO - Visualizing 3 global entries
+2025-10-07 21:05:36 - __main__ - INFO - Loading aggregate map data...
+2025-10-07 21:05:36 - __main__ - INFO - Visualizing 8 aggregate entries
+2025-10-07 21:05:45 - __main__ - INFO - Exiting gracefully

@@ -1,3 +1,4 @@
+# IDE
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -6,9 +7,32 @@
 !.vscode/*.code-snippets
 .history/
 *.vsix
-__pycache__/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
 .env
 .venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# eBPF build artifacts
+ebpf/main.bpf.o
+ebpf/main.skel.json
+ebpf/package.json
 vmlinux.h
-main.skel.json
-.pyc
+
+# Data (optional - uncomment if you don't want to commit logs)
+# data/logs/*.json
+# data/logs/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
